@@ -30,16 +30,23 @@ SET time_zone = "+00:00";
 
 CREATE TABLE `bugs` (
   `bugID` int(4) NOT NULL,
-  `bugname` varchar(15) NOT NULL
+  `bugname` varchar(15) NOT NULL,
+  `bugDescription` varchar(50) NOT NULL,
+  `InStock` int(1) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
 -- Dataark for tabell `bugs`
 --
 
-INSERT INTO `bugs` (`bugID`, `bugname`) VALUES
-(0, 'Maur'),
-(2, 'Flue');
+INSERT INTO `bugs` (`bugID`, `bugname`, `bugDescription`, `InStock`) VALUES
+(0, 'Maur', 'Et insekt som man finner i maurtuer', 1),
+(1, 'Flue', 'Du har forskjellige typer fluer', 0),
+(2, 'Edderkopp', 'Edderkopper lager spindelvev', 1),
+(3, 'System Bugs', 'Lager kaos i systemer', 1),
+(4, 'Browser Bugs', 'Lager koas i browsere', 1),
+(5, 'Syntax error Bugs', 'Syntax bugs er feil i syntaxen', 0),
+(6, 'Runtime Bugs', 'Kaos', 0);
 
 --
 -- Indexes for dumped tables
