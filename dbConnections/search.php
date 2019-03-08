@@ -67,7 +67,7 @@ function CloseCon($conn)
     }
     else{ // if query length is less than minimum
         echo "Minimum length is ".$min_length;
-    }
+    } // test
 ?>
 </body>
 </html>
