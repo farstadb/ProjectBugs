@@ -55,7 +55,7 @@ function CloseCon($conn)
             while($results = mysqli_fetch_array($raw_results)){
             // $results = mysql_fetch_array($raw_results) puts data from database into array, while it's valid it does the loop
              
-                echo "<p><h3>".$results['bugname']."</h3>"."</p>";
+                echo "<p><h3>".$results['bugname']."</h3>".$results['bugDescription'].$results['InStock']."</p>";
                 // posts results gotten from database(title and text) you can also show id ($results['id'])
             }
              
