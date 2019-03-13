@@ -21,8 +21,8 @@
 			/*background-color: rgb(150,150,150);*/
 			position: absolute;
 			text-align:  center;
-			top: 450px;
-			left: 590px;
+			top: 60%;
+			left: 35%;
 		}
 		input[type=text], select {
   			width: 100%;

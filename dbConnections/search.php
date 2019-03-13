@@ -17,12 +17,56 @@ function CloseCon($conn)
    
 ?>
  
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html>
 <head>
     <title>Search results</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <link rel="stylesheet" type="text/css" href="style.css"/>
+    <style type="text/css">
+    	body {
+    		background-color: black;
+    	}
+    	#bugs_container {
+  			font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  			border-collapse: collapse;
+  			width: 100%;
+		}
+
+		#bugs_container td, #bugs_container th {
+  			border: 1px solid #ddd;
+  			padding: 8px;
+		}
+
+		#bugs_container tr:nth-child(even){background-color: #f2f2f2;}
+		#bugs_container tr:nth-child(3){background-color: rgb(350,350,350);}
+
+		#bugs_container tr:hover {background-color: #ddd;}
+
+		#bugs_container th {
+  			padding-top: 12px;
+  			padding-bottom: 12px;
+  			text-align: left;
+  			background-color: #4CAF50;
+  			color: white;
+		}
+
+    	/*#table_container {
+    		background-color: rgb(350,350,350);
+    		width: 90%;
+    		border-collapse: collapse;
+    		height: 250px;
+    		text-align: center;
+  			/*margin: 8px;*/
+  			/*margin-left: auto;
+  			margin-right: auto;
+  			display: block;
+  			border: 8px solid #ccc;
+  			border-radius: 4px;
+  			box-sizing: border-box;
+
+    	}*/
+    </style>
 </head>
 <body>
 <?php
@@ -55,7 +99,19 @@ function CloseCon($conn)
             while($results = mysqli_fetch_array($raw_results)){
             // $results = mysql_fetch_array($raw_results) puts data from database into array, while it's valid it does the loop
              
-                echo "<p><h3>".$results['bugname']."</h3>".$results['bugDescription'].$results['InStock']."</p>";
+                echo '<table id="bugs_container">
+                		<tr>
+                			<th>Bug Name</th>
+                			<th>Bug Description</th>
+                			<th>In stock</th>
+                		</tr>
+                		<tr>
+                			<td>'.$results['bugname'].'</td>
+                			<td>'.$results['bugDescription'].'</td>
+                			<td>'.$results['InStock'].'</td>
+                		</tr>
+           
+                		</Table>';                		;
                 // posts results gotten from database(bugname and bugdescription) you can also show id ($results['id'])
             }
              
