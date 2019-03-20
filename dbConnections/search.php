@@ -123,7 +123,6 @@ function CloseCon($conn)
     }
     else{ // if query length is less than minimum
         echo "No results";
-        //heihei
     } // test
 ?>
 </body>
