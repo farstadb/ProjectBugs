@@ -66,6 +66,13 @@ function CloseCon($conn)
   			box-sizing: border-box;
 
     	}*/
+    	#searchResultsContainer {
+    		height: 150px;
+    		width: 100%;
+    		background-color: white;
+    		position: relative;
+    		border: 1px solid #ddd;
+    	}
     </style>
 </head>
 <body>
@@ -99,19 +106,9 @@ function CloseCon($conn)
             while($results = mysqli_fetch_array($raw_results)){
             // $results = mysql_fetch_array($raw_results) puts data from database into array, while it's valid it does the loop
              
-                echo '<table id="bugs_container">
-                		<tr>
-                			<th>Bug Name</th>
-                			<th>Bug Description</th>
-                			<th>In stock</th>
-                		</tr>
-                		<tr>
-                			<td>'.$results['bugname'].'</td>
-                			<td>'.$results['bugDescription'].'</td>
-                			<td>'.$results['InStock'].'</td>
-                		</tr>
-           
-                		</Table>';                		;
+                echo '<div id = "searchResultsContainer"><h3>
+                		
+                			'.$results['bugname'].'</h3>'.$results['bugDescription'].''.$results['InStock'].'</div>';                		;
                 // posts results gotten from database(bugname and bugdescription) you can also show id ($results['id'])
             }
              
