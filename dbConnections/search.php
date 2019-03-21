@@ -27,6 +27,7 @@ function CloseCon($conn)
     	body {
     		background-color: black;
     	}
+    	
     	#bugs_container {
   			font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
   			border-collapse: collapse;
@@ -50,22 +51,11 @@ function CloseCon($conn)
   			background-color: #4CAF50;
   			color: white;
 		}
+		
 
-    	/*#table_container {
-    		background-color: rgb(350,350,350);
-    		width: 90%;
-    		border-collapse: collapse;
-    		height: 250px;
-    		text-align: center;
-  			/*margin: 8px;*/
-  			/*margin-left: auto;
-  			margin-right: auto;
-  			display: block;
-  			border: 8px solid #ccc;
-  			border-radius: 4px;
-  			box-sizing: border-box;
+    	
 
-    	}*/
+    	/* SEARCH RESULT CONTAINER */
     	#searchResultsContainer {
     		height: 150px;
     		width: 100%;
@@ -73,6 +63,34 @@ function CloseCon($conn)
     		position: relative;
     		border: 1px solid #ddd;
     	}
+
+    	#ImageContainer {
+    		height: 100px;
+    		width: 100px;
+    		position: absolute;
+    		background-color: red;
+    		margin-left: auto;
+    		margin-right: auto;
+    		display: block;
+    		top: 50%;
+    		left: 5%;
+    		transform: translate(-50%, -50%);
+    	}
+    	img {
+    		width: 100%; /* or any custom size */
+    		height: 100%; 
+    		object-fit: contain;
+
+		}
+		#textContainer {
+			position: relative;
+			left: 10%;
+		}
+		#antallInStock {
+			position: relative;
+			left: 80%;
+			top: -80px;
+		}
     </style>
 </head>
 <body>
@@ -106,9 +124,15 @@ function CloseCon($conn)
             while($results = mysqli_fetch_array($raw_results)){
             // $results = mysql_fetch_array($raw_results) puts data from database into array, while it's valid it does the loop
              
-                echo '<div id = "searchResultsContainer"><h3>
-                		
-                			'.$results['bugname'].'</h3>'.$results['bugDescription'].''.$results['InStock'].'</div>';                		;
+                echo '<div id = "searchResultsContainer">
+                			<div id ="ImageContainer"> 
+                				<img src="../images/image-placeholder.png">
+                			</div>
+                				<div id="textContainer"><h3>'.$results['bugname'].'</h3>'.$results['bugDescription'].'
+                			</div>
+                			<div id ="antallInStock"><p>Antall tilgjenglig</p>'.$results['InStock'].'
+                			</div>
+                		</div>';                		;
                 // posts results gotten from database(bugname and bugdescription) you can also show id ($results['id'])
             }
              
