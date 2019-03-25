@@ -1,0 +1,92 @@
+
+  body {
+    font-family: Helvetica;
+    background-color: black;
+  }
+
+  #myVideo {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+#boks {
+  height: 50px;
+  width: 550px;
+  /*background-color: rgb(150,150,150);*/
+  position: absolute;
+  text-align:  center;
+  top: 60%;
+  left: 35%;
+}
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+  #bugs_container {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#bugs_container td, #bugs_container th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#bugs_container tr:nth-child(even){background-color: #f2f2f2;}
+#bugs_container tr:nth-child(3){background-color: rgb(350,350,350);}
+
+#bugs_container tr:hover {background-color: #ddd;}
+
+#bugs_container th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
+
+  /* SEARCH RESULT CONTAINER */
+  #searchResultsContainer {
+    height: 150px;
+    width: 100%;
+    background-color: white;
+    position: relative;
+    border: 1px solid #ddd;
+  }
+
+  #ImageContainer {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    background-color: red;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    top: 50%;
+    left: 5%;
+    transform: translate(-50%, -50%);
+  }
+  img {
+    width: 100%; /* or any custom size */
+    height: 100%;
+    object-fit: contain;
+
+}
+#textContainer {
+  position: relative;
+  left: 10%;
+}
+#antallInStock {
+  position: relative;
+  left: 80%;
+  top: -80px;
+}
