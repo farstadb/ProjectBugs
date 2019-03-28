@@ -1,8 +1,5 @@
 
-  body {
-    font-family: Helvetica;
-    background-color: black;
-  }
+  
 
   #myVideo {
     position: absolute;
@@ -11,6 +8,11 @@
     min-width: 100%;
     min-height: 100%;
 }
+  #LogoBoks {
+    height: 250px;
+    width: 350px;
+    position: absolute;
+  }
 #boks {
   height: 50px;
   width: 550px;
