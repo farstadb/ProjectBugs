@@ -4,7 +4,8 @@ body {
 }
 html {
   
-  background-size: 100% 100%; 
+  background-size: 100% 100%;
+  overflow: hidden; 
 }
   
   #myVideo {
@@ -72,6 +73,7 @@ input[type=text], select {
     background-color: white;
     position: relative;
     border: 1px solid #ddd;
+    overflow: hidden;
   }
 
   #ImageContainer {
@@ -95,9 +97,11 @@ input[type=text], select {
 #textContainer {
   position: relative;
   left: 10%;
+  overflow: hidden;
 }
 #antallInStock {
   position: relative;
   left: 80%;
   top: -80px;
+  overflow: hidden;
 }
