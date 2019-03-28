@@ -16,6 +16,7 @@ body {
     position: relative;
     top: -300px;
     left: 45px;
+    z-index: -1;
 
   }
 #boks {
