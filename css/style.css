@@ -19,6 +19,27 @@ body {
     z-index: -1;
 
   }
+
+  #logo {
+    height: 250px;
+    width: 450px;
+    position: absolute;
+    top: -47px;
+    left: -50px;
+    display: inline-block;
+    cursor: pointer;
+  }
+
+  #searchfield{
+    height: 50px;
+    width: 550px;
+    background-color: whitesmoke;
+    position: relative;
+    padding:8px;
+    top: -10px;
+    left: 300px;
+  }
+
 #boks {
   height: 50px;
   width: 550px;
