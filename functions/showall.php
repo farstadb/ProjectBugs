@@ -21,7 +21,7 @@ function searchAll() {
                     </div>
 
                     <div id = "searchfield">
-                        <form action="search.php" method="GET">
+                        <form action="../dbconnections/search.php" method="GET">
                         <input type="text" name="query" placeholder="Search for bugs.." />
                         </form>
                     </div>';
