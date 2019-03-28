@@ -45,7 +45,7 @@ function searchQuery() {
 
                 echo '<div id="searchResultsContainer">
                 			<div id="ImageContainer">
-                				<img src="../images/image-placeholder.png">
+                				<img src="'.$results["BugImages"].'">
                 			</div>
                 				<div id="textContainer"><h3>'.$results["bugname"].'</h3>'.$results["bugDescription"].'
                 			</div>
