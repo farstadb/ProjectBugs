@@ -46,6 +46,28 @@ html {
     left: 300px;
   }
 
+  .showAll{
+    display: inline-block;
+    background-color: rgb(230,230,230);
+    height: 40px;
+    width: 150px;
+    text-align: center;
+    padding:0.2em 1.45em;
+    margin:0.1em;
+    border:0.15em solid rgb(220,220,220);
+    box-sizing: border-box;
+    font-family:'Segoe UI','Roboto',sans-serif;
+    font-weight:400;
+    color:#000000;
+    position:relative;
+    text-decoration: none;
+    top: -300px;
+    }
+
+    a.showAll:hover { 
+      background-color: rgb(250,250,250);
+    }
+
 #boks {
   height: 50px;
   width: 550px;
@@ -97,12 +119,13 @@ input[type=text], select {
 }
 #textContainer {
   position: relative;
+  top: 20px;
   left: 10%;
   
 }
 #antallInStock {
   position: relative;
   left: 80%;
-  top: -80px;
+  top: -50px;
   
 }

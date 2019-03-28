@@ -11,8 +11,8 @@
         		<input type="text" name="query" placeholder="Search for bugs.." />
     		</form>
     		<div id ="LogoBoks"><img src = "images/ProjectBugs_Logo.png"></div>
-
+    		<a href="functions/showall.php" target="showAll" class = "showAll"> Show all </a>
     	</div>
-
+    	
 </body>
 </html>
