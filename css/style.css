@@ -2,6 +2,10 @@ body {
   font-family: Helvetica;
   background-color: whitesmoke;
 }
+html {
+  
+  background-size: 100% 100%; 
+}
   
   #myVideo {
     position: absolute;
@@ -59,29 +63,7 @@ input[type=text], select {
     box-sizing: border-box;
 }
 
-  #bugs_container {
-    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
-    border-collapse: collapse;
-    width: 100%;
-}
-
-#bugs_container td, #bugs_container th {
-    border: 1px solid #ddd;
-    padding: 8px;
-}
-
-#bugs_container tr:nth-child(even){background-color: #f2f2f2;}
-#bugs_container tr:nth-child(3){background-color: rgb(350,350,350);}
-
-#bugs_container tr:hover {background-color: #ddd;}
-
-#bugs_container th {
-    padding-top: 12px;
-    padding-bottom: 12px;
-    text-align: left;
-    background-color: #4CAF50;
-    color: white;
-}
+  
 
   /* SEARCH RESULT CONTAINER */
   #searchResultsContainer {
