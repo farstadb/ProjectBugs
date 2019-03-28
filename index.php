@@ -6,11 +6,13 @@
     <link rel="stylesheet" type="text/css" href="css/style.css"/>
 </head>
 <body>
-<div id ="LogoBoks"><img src = "images/ProjectBugs_Logo.png"></div>
 		<div id ="boks">
     		<form action="dbconnections/search.php" method="GET">
         		<input type="text" name="query" placeholder="Search for bugs.." />
     		</form>
+    		<div id ="LogoBoks"><img src = "images/ProjectBugs_Logo.png"></div>
+
     	</div>
+
 </body>
 </html>

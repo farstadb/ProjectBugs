@@ -1,9 +1,8 @@
-body{
+body {
   font-family: Helvetica;
   background-color: whitesmoke;
 }
   
-
   #myVideo {
     position: absolute;
     right: 0;
@@ -12,9 +11,12 @@ body{
     min-height: 100%;
 }
   #LogoBoks {
-    height: 250px;
-    width: 350px;
-    position: absolute;
+    height: 300px;
+    width: 450px;
+    position: relative;
+    top: -300px;
+    left: 45px;
+
   }
 #boks {
   height: 50px;
@@ -22,8 +24,8 @@ body{
   /*background-color: rgb(150,150,150);*/
   position: absolute;
   text-align:  center;
-  top: 60%;
-  left: 35%;
+  top: 40%;
+  left: 33%;
 }
 input[type=text], select {
     width: 100%;
