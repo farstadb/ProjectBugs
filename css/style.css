@@ -125,7 +125,12 @@ input[type=text], select {
 }
 #antallInStock {
   position: relative;
-  left: 80%;
+  left: 1000px;
   top: -50px;
-  
+}
+
+#iStock {
+  position: relative;
+  left: 1300px;
+  top: -120px;
 }
