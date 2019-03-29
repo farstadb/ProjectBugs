@@ -57,12 +57,24 @@ function searchQuery() {
 
         }
         else{ // if there is no matching rows do following
-            echo "No results";
+            echo '<br> Desverre ingen resultater på det du søkte på. </br>';
         }
 
     }
-    else{ // if query length is less than minimum
-        echo "No results";
+    else{  // if query length is less than minimum
+        echo '<div id="logo"> 
+                    <a href = "../index.php" id = "logo"> 
+                    <img src = "../images/ProjectBugs_Logo.png"> 
+                    </a> 
+                    </div>
+
+                    <div id = "searchfield">
+                        <form action="search.php" method="GET">
+                        <input type="text" name="query" placeholder="Search for bugs.." />
+                        </form>
+                    </div>
+                    <br>
+                    Du må skrive noe i søkefeltet for å få resultat. </br>';
     } // test
 }
 ?>
