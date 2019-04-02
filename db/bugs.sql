@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: 28. Mar, 2019 15:53 PM
+-- Generation Time: 02. Apr, 2019 10:42 AM
 -- Tjener-versjon: 10.1.38-MariaDB
 -- PHP Version: 7.3.3
 
@@ -33,26 +33,27 @@ CREATE TABLE `bugs` (
   `BugImages` varchar(500) NOT NULL,
   `bugname` varchar(15) NOT NULL,
   `bugDescription` varchar(255) NOT NULL,
-  `InStock` int(1) NOT NULL
+  `InStock` int(1) NOT NULL,
+  `iStock` int(1) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
 -- Dataark for tabell `bugs`
 --
 
-INSERT INTO `bugs` (`bugID`, `BugImages`, `bugname`, `bugDescription`, `InStock`) VALUES
-(0, '../images/bugs/maur.jpg', 'Maur', 'Et insekt som man finner i maurtuer', 1),
-(1, '../images/bugs/flue.jpg', 'Flue', 'Du har forskjellige typer fluer', 0),
-(2, '../images/bugs/spider.jpg', 'Edderkopp', 'Edderkopper lager spindelvev', 1),
-(3, '../images/bugs/sommerfugl.jpg', 'Sommerfugl', 'Sommerfugler er en orden med over 170 000 arter.', 1),
-(4, '../images/bugs/gresshoppe.jpg', 'Gresshoppe', 'Gresshopper er en delgruppe av rettvinger.', 0),
-(5, '../images/bugs/marihoene.jpg', 'Marihøne', 'Marihøner er en familie innen ordenen biller', 1),
-(6, '../images/bugs/oyenstikker.jpg', 'Øyenstikker', 'Øyenstikkere er en delgruppe av insektene. ', 1),
-(7, '../images/bugs/bie.jpg', 'Bie', 'broddvepser som lever av blomsterstøv og nektar. ', 0),
-(8, '../images/bugs/mygg.jpg', 'Mygg', 'Mygg er én gruppe av tovingene. Den andre gruppen er fluer. ', 1),
-(9, '../images/bugs/flott.jpg', 'Flått', 'Flått,vitenskapelig navn-ixodidae,', 1),
-(10, '../images/bugs/solvkre.jpg', 'Sølvkre', 'Sølvkre et lite, dråpeformet og litt sølvfarget insekt. ', 1),
-(11, '../images/bugs/bille.jpg', 'Bille', 'Biller er en gruppe av insekter med fullstendig forvandling.', 1);
+INSERT INTO `bugs` (`bugID`, `BugImages`, `bugname`, `bugDescription`, `InStock`, `iStock`) VALUES
+(0, '../images/bugs/maur.jpg', 'Maur', 'Et insekt som man finner i maurtuer', 10, 1),
+(1, '../images/bugs/flue.jpg', 'Flue', 'Du har forskjellige typer fluer', 0, 0),
+(2, '../images/bugs/spider.jpg', 'Edderkopp', 'Edderkopper lager spindelvev', 7, 1),
+(3, '../images/bugs/sommerfugl.jpg', 'Sommerfugl', 'Sommerfugler er en orden med over 170 000 arter.', 8, 1),
+(4, '../images/bugs/gresshoppe.jpg', 'Gresshoppe', 'Gresshopper er en delgruppe av rettvinger.', 7, 1),
+(5, '../images/bugs/marihoene.jpg', 'Marihøne', 'Marihøner er en familie innen ordenen biller', 1, 0),
+(6, '../images/bugs/oyenstikker.jpg', 'Øyenstikker', 'Øyenstikkere er en delgruppe av insektene. ', 0, 0),
+(7, '../images/bugs/bie.jpg', 'Bie', 'broddvepser som lever av blomsterstøv og nektar. ', 0, 0),
+(8, '../images/bugs/mygg.jpg', 'Mygg', 'Mygg er én gruppe av tovingene. Den andre gruppen er fluer. ', 1, 1),
+(9, '../images/bugs/flott.jpg', 'Flått', 'Flått,vitenskapelig navn-ixodidae,', 5, 1),
+(10, '../images/bugs/solvkre.jpg', 'Sølvkre', 'Sølvkre et lite, dråpeformet og litt sølvfarget insekt. ', 0, 0),
+(11, '../images/bugs/bille.jpg', 'Bille', 'Biller er en gruppe av insekter med fullstendig forvandling.', 4, 0);
 
 --
 -- Indexes for dumped tables
