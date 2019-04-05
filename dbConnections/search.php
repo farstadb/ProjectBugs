@@ -1,4 +1,4 @@
-<!-- This code makes the search result page -->
+<!-- This code makes the search result page and connects all elements in the search results page -->
 <!DOCTYPE html>
 <html>
 <?php
@@ -11,6 +11,7 @@ include '../functions/connect.php';
   <link rel="stylesheet" type="text/css" href="../css/style.css">
 </head>
 <body>
+	<!-- Includes the search functions -->
   <?php
   include '../functions/functions.php';
     searchQuery();

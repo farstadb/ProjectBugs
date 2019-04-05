@@ -11,6 +11,7 @@ include '../functions/connect.php';
   <link rel="stylesheet" type="text/css" href="../css/style.css">
 </head>
 <body>
+	<!-- Including the function that shows all the products in the database -->
   <?php
   include '../functions/showall.php';
     searchAll();

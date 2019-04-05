@@ -1,19 +1,20 @@
+<!--            THE MAIN FILE THAT RUNS THE WHOLE SOLUTION          -->
 <!DOCTYPE html>
 <html>
 <head>
-    <title>How Many Bugs Can you find?</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    <title>How Many Bugs Can you find?</title> <!-- Tittel of the TAB  -->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> <!-- Uses scandinavian characters -->
+    <link rel="stylesheet" type="text/css" href="css/style.css"/> <!-- Inlcuding the styling CSS file -->
 </head>
 <body>
-		<div id ="boks">
-    		<form action="dbconnections/search.php" method="GET">
-        		<input type="text" name="query" placeholder="Search for bugs.." />
+		<div id ="boks"> <!-- Container for all the elements on the landing page -->
+    		<form action="dbconnections/search.php" method="GET"> <!-- GET the search.php in the input field -->
+        		<input type="text" name="query" placeholder="Search for bugs.." /> <!-- sending text input to the variable query -->
     		</form>
-    		<div id ="LogoBoks">
-                <img src = "images/ProjectBugs_Logo.png">
+    		<div id ="LogoBoks"> <!-- LOGO box container for the landing page-->
+                <img src = "images/ProjectBugs_Logo.png"> <!-- Gets the logo images from the images folder -->
             </div>
-    		<a href="functions/searchall.php" target="showAll" class = "showAll"> Show all </a>
+    		<a href="functions/searchall.php" target="showAll" class = "showAll"> Show all </a> <!-- the button for "ShowAll" and links it to searchall.php-->
     	</div>
     	
 </body>
