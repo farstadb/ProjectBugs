@@ -1,4 +1,5 @@
-
+<!-- This function is used when the user press the button "show all"
+And to find all of the bugs, this function calls on searchAll method-->
 <?php
 function searchAll() {
 
@@ -9,10 +10,8 @@ function searchAll() {
         // * means that it selects all fields
         // bugs is the name of our table
 
-        // '%$query%' is what we're looking for, % means anything, for example if $query is Hello
-        // it will match "hello", "Hello man", "gogohello", if you want exact match use `bugname`='$query'
-        // or if you want to match just full word so "gogohello" is out use '% $query %' ...OR ... '$query %' ... OR ... '% $query'
-
+        // '%' is what we're looking for, % means anything
+        // it will match when you press show all 
 
         echo '<div id="logo">
                     <a href = "../index.php" id = "logo">
@@ -25,6 +24,10 @@ function searchAll() {
                         <input type="text" name="query" placeholder="Search for bugs.." />
                         </form>
                     </div>';
+        /* Here the logo is printed out and the search field, so that when the user press the button show all
+        the logo and search bar is appearing in the top. This is so that the user can search again and 
+        go back to the homepage*/
+
 
         if(mysqli_num_rows($raw_results) > 0){ // if one or more rows are returned do following
 
@@ -48,7 +51,8 @@ function searchAll() {
                 			<div id="antallInStock"><p>',$IsInStock,'</p>'.$results["InStock"].' stk på lager
                 			</div>
                 		</div>';
-                // posts results gotten from database(bugname and bugdescription) you can also show id ($results["id"])
+                // posts results gotten from database(bugname, bugdescription, instock) you can also show id ($results["id"])
+                // Posted in a "table". 
             }
 
         }

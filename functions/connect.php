@@ -1,3 +1,4 @@
+<!-- Connects the code to the database - so that the bugs page will appear-->
 <?php
 function OpenCon()
  {

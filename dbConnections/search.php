@@ -1,10 +1,9 @@
-
-
+<!-- This code makes the search result page -->
 <!DOCTYPE html>
 <html>
 <?php
 include '../functions/connect.php';
-?>
+?> <!--includes the connecth.php file, so that the result page is connected to the database-->
 
 <head>
   <title>Search results</title>

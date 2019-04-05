@@ -38,6 +38,11 @@ function searchQuery() {
                         </form>
                     </div>';
 
+        /* Here the logo is printed out and the search field, so that when the user press the button show all
+        the logo and search bar is appearing in the top. This is so that the user can search again and 
+        go back to the homepage*/
+
+
         if(mysqli_num_rows($raw_results) > 0){ // if one or more rows are returned do following
 
             while($results = mysqli_fetch_array($raw_results)){
@@ -84,6 +89,6 @@ function searchQuery() {
                     </div>
                     <br>
                     Du må skrive noe i søkefeltet for å få resultat. </br>';
-    } // test
+    } // shows up when the user press enter whitout any input. The logo and search bar appears at the top.
 }
 ?>
