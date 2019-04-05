@@ -1,4 +1,8 @@
+/*      THIS IS THE CSS STYLING CODE FOR THE PROJECT       */
+
+/*      DECIDES STYLE OF THE BODY    */
 body {
+
   font-family: Helvetica;
   background-color: whitesmoke;
 }
@@ -8,14 +12,15 @@ html {
   overflow-x: hidden;
    
 }
-  
-  #myVideo {
+/*      AN EARLIER VIDEO THAT IS NO LONGER IN user-select: */  
+#myVideo {
     position: absolute;
     right: 0;
     bottom: 0;
     min-width: 100%;
     min-height: 100%;
 }
+/*      A DIV BOX THAT DECIDES THE SIZE OF THE LOGO AND ITS POSITION ON THE LANDING PAGE      */
   #LogoBoks {
     height: 300px;
     width: 450px;
@@ -25,7 +30,7 @@ html {
     z-index: -1;
 
   }
-
+/*        A DIV BOX THAT DECIDES THE SIZE OF THE LOGO AND ITS POSITION ON THE RESULTS PAGE      */
   #logo {
     height: 250px;
     width: 450px;
@@ -35,7 +40,7 @@ html {
     display: inline-block;
     cursor: pointer;
   }
-
+/*        THE STYLING FOR THE SEARCHBAR       */
   #searchfield{
     height: 50px;
     width: 550px;
@@ -45,7 +50,7 @@ html {
     top: -10px;
     left: 300px;
   }
-
+/*        A DIV CLASS STYLING FOR THE SHOWALL BUTTON ON THE LANDING PAGE      */
   .showAll{
     display: inline-block;
     background-color: rgb(230,230,230);
@@ -63,11 +68,11 @@ html {
     text-decoration: none;
     top: -300px;
     }
-
+/*        WHEN YOU HOVER SHOWALL BUTTON       */
     a.showAll:hover { 
       background-color: rgb(250,250,250);
     }
-
+/*      A DIV ID THAT CONTAINS ALL OF THE ELEMENTS ON THE LANDING PAGE      */
 #boks {
   height: 50px;
   width: 550px;
@@ -77,6 +82,7 @@ html {
   top: 40%;
   left: 33%;
 }
+/*      TEXT INPUT IN THE SEARCH CONTAINER FIELD      */
 input[type=text], select {
     width: 100%;
     padding: 12px 20px;
@@ -98,7 +104,7 @@ input[type=text], select {
     border: 1px solid #ddd;
     
   }
-
+/*      IMAGE CONTAINER FOR ALL IMAGES IN THE SEARCH RESULTS PAGE       */
   #ImageContainer {
     height: 100px;
     width: 100px;
@@ -111,24 +117,27 @@ input[type=text], select {
     left: 5%;
     transform: translate(-50%, -50%);
   }
+/*      GENERAL STYLING OF IMAGES       */
   img {
     width: 100%; /* or any custom size */
     height: 100%;
     object-fit: contain;
 
 }
+/*      CONTAINER FOR TEXT TITTEL AND DESCRIPTION ON THE SEARCH RESULTS PAGE      */
 #textContainer {
   position: relative;
   top: 20px;
   left: 10%;
   
 }
+/*      CONTAINER FOR POSITIONING WHERE INTEGER IN STOCK IS PLACED ON THE SEARCH RESULTS PAGE       */
 #antallInStock {
   position: relative;
   left: 1000px;
   top: -50px;
 }
-
+/*      CONTAINER FOR BOOLEAN IF PRODUCT IS IN STOCK OR NOT     */
 #iStock {
   position: relative;
   left: 1300px;
