@@ -1,3 +1,13 @@
+<?php
+echo '<div id="logo">
+    <a href = "../index.php" id = "logo">
+    <img src = "../images/ProjectBugs_Logo.png">
+    </a>
+    </div>';
+?>
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -17,6 +27,10 @@
     <p>
         <label for="emailAddress">Epost addresse:</label>
         <input type="text" name="email" id="emailAddress">
+    </p>
+    <p>
+        <label for="passord">Passord:</label>
+        <input type="text" name="passord" id="passord">
     </p>
     <input type="submit" value="Submit">
 </form>
