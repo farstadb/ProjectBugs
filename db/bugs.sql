@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: 02. Apr, 2019 10:42 AM
+-- Generation Time: 11. Apr, 2019 13:28 PM
 -- Tjener-versjon: 10.1.38-MariaDB
 -- PHP Version: 7.3.3
 
@@ -47,12 +47,12 @@ INSERT INTO `bugs` (`bugID`, `BugImages`, `bugname`, `bugDescription`, `InStock`
 (2, '../images/bugs/spider.jpg', 'Edderkopp', 'Edderkopper lager spindelvev', 7, 1),
 (3, '../images/bugs/sommerfugl.jpg', 'Sommerfugl', 'Sommerfugler er en orden med over 170 000 arter.', 8, 1),
 (4, '../images/bugs/gresshoppe.jpg', 'Gresshoppe', 'Gresshopper er en delgruppe av rettvinger.', 7, 1),
-(5, '../images/bugs/marihoene.jpg', 'Marihøne', 'Marihøner er en familie innen ordenen biller', 1, 0),
-(6, '../images/bugs/oyenstikker.jpg', 'Øyenstikker', 'Øyenstikkere er en delgruppe av insektene. ', 0, 0),
-(7, '../images/bugs/bie.jpg', 'Bie', 'broddvepser som lever av blomsterstøv og nektar. ', 0, 0),
-(8, '../images/bugs/mygg.jpg', 'Mygg', 'Mygg er én gruppe av tovingene. Den andre gruppen er fluer. ', 1, 1),
-(9, '../images/bugs/flott.jpg', 'Flått', 'Flått,vitenskapelig navn-ixodidae,', 5, 1),
-(10, '../images/bugs/solvkre.jpg', 'Sølvkre', 'Sølvkre et lite, dråpeformet og litt sølvfarget insekt. ', 0, 0),
+(5, '../images/bugs/marihoene.jpg', 'MarihÃ¸ne', 'MarihÃ¸ner er en familie innen ordenen biller', 1, 0),
+(6, '../images/bugs/oyenstikker.jpg', 'Ã˜yenstikker', 'Ã˜yenstikkere er en delgruppe av insektene. ', 0, 0),
+(7, '../images/bugs/bie.jpg', 'Bie', 'broddvepser som lever av blomsterstÃ¸v og nektar. ', 0, 0),
+(8, '../images/bugs/mygg.jpg', 'Mygg', 'Mygg er en gruppe av tovingene. Den andre gruppen er fluer. ', 1, 1),
+(9, '../images/bugs/flott.jpg', 'FlÃ¥tt', 'FlÃ¥tt,vitenskapelig navn-ixodidae,', 5, 1),
+(10, '../images/bugs/solvkre.jpg', 'SÃ¸lvkre', 'SÃ¸lvkre et lite, drÃ¥peformet og litt sÃ¸lvfarget insekt. ', 0, 0),
 (11, '../images/bugs/bille.jpg', 'Bille', 'Biller er en gruppe av insekter med fullstendig forvandling.', 4, 0);
 
 --
