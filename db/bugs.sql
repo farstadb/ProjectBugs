@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: 11. Apr, 2019 13:44 PM
+-- Generation Time: 11. Apr, 2019 13:56 PM
 -- Tjener-versjon: 10.1.38-MariaDB
 -- PHP Version: 7.3.3
 
@@ -51,8 +51,8 @@ INSERT INTO `bugs` (`bugID`, `BugImages`, `bugname`, `bugDescription`, `InStock`
 (6, '../images/bugs/oyenstikker.jpg', 'Ã˜yenstikker', 'Ã˜yenstikkere er en delgruppe av insektene. ', 0, 0),
 (7, '../images/bugs/bie.jpg', 'Bie', 'broddvepser som lever av blomsterstÃ¸v og nektar. ', 0, 0),
 (8, '../images/bugs/mygg.jpg', 'Mygg', 'Mygg er en gruppe av tovingene. Den andre gruppen er fluer. ', 1, 1),
-(9, '../images/bugs/flott.jpg', 'FlÂ¥tt', 'FlÂ¥tt,vitenskapelig navn-ixodidae,', 5, 1),
-(10, '../images/bugs/solvkre.jpg', 'SÂ¸lvkre', 'SÂ¸lvkre et lite, drÂ¥peformet og litt sÂ¸lvfarget insekt. ', 0, 0),
+(9, '../images/bugs/flott.jpg', 'FlÃ¥tt', 'FlÃ¥tt,vitenskapelig navn-ixodidae,', 5, 1),
+(10, '../images/bugs/solvkre.jpg', 'SÃ¸lvkre', 'SÃ¸lvkre et lite, drÃ¥peformet og litt sÃ¸lvfarget insekt. ', 0, 0),
 (11, '../images/bugs/bille.jpg', 'Bille', 'Biller er en gruppe av insekter med fullstendig forvandling.', 4, 0);
 
 --
