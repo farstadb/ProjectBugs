@@ -159,6 +159,18 @@ input[type=text], select {
   left: 10%;
   
 }
+
+#prisContainer{
+  position: relative;
+  left: 1300px;
+  top: -80px;
+}
+
+#prisTekst{
+  position: relative;
+  left: 1300px;
+  top: -150px;
+}
 /*      CONTAINER FOR POSITIONING WHERE INTEGER IN STOCK IS PLACED ON THE SEARCH RESULTS PAGE       */
 #antallInStock {
   position: relative;

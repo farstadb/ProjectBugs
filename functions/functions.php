@@ -65,6 +65,10 @@ function searchQuery() {
                 			</div>
                 			<div id="antallInStock"><p>',$IsInStock,'</p>'.$results["InStock"].' stk på lager
                 			</div>
+                            <div id="prisContainer"><p>'.$results["Pris"].',- kr</p> 
+                            </div>
+                            <div id ="prisTekst"><p>Pris: </p> 
+                            </div>
                 		</div>';
                 // posts results gotten from database(bugname and bugdescription) you can also show id ($results["id"])
             }
