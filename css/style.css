@@ -183,6 +183,24 @@ input[type=text], select {
   left: 1300px;
   top: -120px;
 }
+#tilgjengeligKnapp {
+  height: 15px;
+  width: 15px;
+  background-color: green;
+  position: relative;
+  z-index: 10;
+  top: 110px;
+  left: 1000px;
+}
+#utilgjengeligKnapp {
+  height: 15px;
+  width: 15px;
+  background-color: yellow;
+  position: relative;
+  top: 110px;
+  left: 1000px;
+  z-index: 10;
+}
 
 
 

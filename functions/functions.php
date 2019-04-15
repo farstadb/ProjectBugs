@@ -50,10 +50,12 @@ function searchQuery() {
 
             if($results['InStock'] > 0){
               $IsInStock = "Varen er tilgjengelig!";
+              echo '<div id="tilgjengeligKnapp"></div>';
 
             }
             else{
               $IsInStock = "Utsolgt!";
+              echo '<div id="utilgjengeligKnapp"></div>';
             }
             // IsInStock shows a title if the item is in stock, or if it is out of stock and unavailiable to buy
 
