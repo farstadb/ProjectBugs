@@ -54,7 +54,7 @@ function searchQuery() {
 
             }
             else{
-              $IsInStock = "Utsolgt!";
+              $IsInStock = "Må bestilles!";
               echo '<div id="utilgjengeligKnapp"></div>';
             }
             // IsInStock shows a title if the item is in stock, or if it is out of stock and unavailiable to buy
