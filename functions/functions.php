@@ -39,7 +39,7 @@ function searchQuery() {
                     </div>';
 
         /* Here the logo is printed out and the search field, so that when the user press the button show all
-        the logo and search bar is appearing in the top. This is so that the user can search again and 
+        the logo and search bar is appearing in the top. This is so that the user can search again and
         go back to the homepage*/
 
 
@@ -67,9 +67,9 @@ function searchQuery() {
                 			</div>
                 			<div id="antallInStock"><p>',$IsInStock,'</p>'.$results["InStock"].' stk på lager
                 			</div>
-                            <div id="prisContainer"><p>'.$results["Pris"].',- kr</p> 
+                            <div id="prisContainer"><p>'.$results["Pris"].',- kr</p>
                             </div>
-                            <div id ="prisTekst"><p>Pris: </p> 
+                            <div id ="prisTekst"><p>Pris: </p>
                             </div>
                 		</div>';
                 // posts results gotten from database(bugname and bugdescription) you can also show id ($results["id"])
@@ -96,5 +96,34 @@ function searchQuery() {
                     <br>
                     Du må skrive noe i søkefeltet for å få resultat. </br>';
     } // shows up when the user press enter whitout any input. The logo and search bar appears at the top.
+}
+
+function newUser(){
+  /* Attempt MySQL server connection. Assuming you are running MySQL
+  server with default setting (user 'root' with no password) */
+  $link = mysqli_connect("localhost", "root", "", "Bugs");
+  // Escape user inputs for security
+  $Fornavn = mysqli_real_escape_string($link, $_REQUEST['Fornavn']);
+  $Etternavn = mysqli_real_escape_string($link, $_REQUEST['Etternavn']);
+  $Mailadresse = mysqli_real_escape_string($link, $_REQUEST['Mailadresse']);
+  $Passord = mysqli_real_escape_string($link, $_REQUEST['Passord']);
+  // Attempt insert query execution
+
+
+  if(($Fornavn&&$Etternavn&&$Mailadresse &&$Passord)  != null){
+  	$sql = "INSERT INTO bruker (Fornavn, Etternavn, Mailadresse, Passord) VALUES ('$Fornavn', '$Etternavn', '$Mailadresse', '$Passord')";
+  	if(mysqli_query($link, $sql)){
+      	echo "Records added successfully.";
+  	}
+  	else{
+      	echo "ERROR: Could not able to execute $sql. " . mysqli_error($link);
+  	}
+  }
+  else {
+  	echo "Feil";
+  }
+
+  // Close connection
+  mysqli_close($link);
 }
 ?>

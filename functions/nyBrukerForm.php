@@ -1,12 +1,12 @@
 <?php
-echo '<div id="logo">
-    <a href = "../index.php" id = "logo">
-    <img src = "../images/ProjectBugs_Logo.png">
-    </a>
-    </div>';
-
-
 include '../functions/connect.php';
+include '../functions/functions.php';
+if($_GET){
+    if(isset($_GET['submit'])){
+        newUser();
+    }
+}
+
 ?>
 
 
@@ -15,29 +15,36 @@ include '../functions/connect.php';
 <html lang="en">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+  <link rel="stylesheet" type="text/css" href="../css/style.css">
 <title>Opprette ny bruker</title>
 </head>
 <body>
-<form action="user.php" method="post">
-    <p>
-        <label for="Fornavn">Fornavn:</label>
-        <input type="text" name="Fornavn" id="Fornavn">
-    </p>
-    <p>
-        <label for="Etternavn">Etternavn:</label>
-        <input type="text" name="Etternavn" id="Etternavn">
-    </p>
-    <p>
-        <label for="Mailadresse">Epost addresse:</label>
-        <input type="text" name="Mailadresse" id="Mailadresse">
-    </p>
-    <p>
-        <label for="Passord">Passord:</label>
-        <input type="text" name="Passord" id="Passord">
-    </p>
-    <input type="submit" value="Submit">
-</form>
+
+<div id="logo">
+      <a href = "../index.php" id = "logo">
+      <img src = "../images/ProjectBugs_Logo.png">
+      </a>
+</div>
+
+<div id="regBox">
+  <form action="user.php" method="post">
+    <div id="regInputBox">
+        <input type="text" name="Fornavn" id="Fornavn" placeholder="Fornavn">
+    </div>
+    <div id="regInputBox">
+        <input type="text" name="Etternavn" id="Etternavn" placeholder="Etternavn">
+    </div>
+    <div id="regInputBox">
+        <input type="text" name="Mailadresse" id="Mailadresse" placeholder="Mail-adresse">
+    </div>
+    <div id="regInputBox">
+        <input type="password" name="Passord" id="Passord" placeholder="Passord">
+    </div>
+        <input type="submit" value="Submit">
+</div>
+
+  </form>
+
+</div>
 </body>
 </html>
-
-    

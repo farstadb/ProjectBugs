@@ -7,12 +7,12 @@ body {
   background-color: whitesmoke;
 }
 html {
-  
+
   background-size: 100% 100%;
   overflow-x: hidden;
-   
+
 }
-/*      AN EARLIER VIDEO THAT IS NO LONGER IN user-select: */  
+/*      AN EARLIER VIDEO THAT IS NO LONGER IN user-select: */
 #myVideo {
     position: absolute;
     right: 0;
@@ -34,9 +34,7 @@ html {
   #logo {
     height: 250px;
     width: 450px;
-    position: absolute;
-    top: -47px;
-    left: -50px;
+    position: relative;
     display: inline-block;
     cursor: pointer;
   }
@@ -72,7 +70,7 @@ html {
     left: 130px;
     }
 /*        WHEN YOU HOVER SHOWALL BUTTON       */
-    a.showAll:hover { 
+    a.showAll:hover {
       background-color: rgb(250,250,250);
     }
     /*      KNAPP TIL Å GÅ TIL OPPRETTE BRUKERSIDEN       */
@@ -96,7 +94,7 @@ html {
     left: 95%;
     }
 /*        WHEN YOU HOVER SHOWALL BUTTON       */
-    a.oppretteBrukerKnapp:hover { 
+    a.oppretteBrukerKnapp:hover {
       background-color: rgb(250,250,250);
     }
 /*      A DIV ID THAT CONTAINS ALL OF THE ELEMENTS ON THE LANDING PAGE      */
@@ -118,9 +116,19 @@ input[type=text], select {
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
+    text-align: center;
 }
 
-  
+input[type=password], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+      text-align: center;
+}
 
   /* SEARCH RESULT CONTAINER */
   #searchResultsContainer {
@@ -129,7 +137,7 @@ input[type=text], select {
     background-color: white;
     position: relative;
     border: 1px solid #ddd;
-    
+
   }
 
 /*      IMAGE CONTAINER FOR ALL IMAGES IN THE SEARCH RESULTS PAGE       */
@@ -157,7 +165,7 @@ input[type=text], select {
   position: relative;
   top: 20px;
   left: 10%;
-  
+
 }
 
 #prisContainer{
@@ -202,6 +210,41 @@ input[type=text], select {
   z-index: 10;
 }
 
+#regBox{
+  height: 100%;
+  width: 100%;
+  background-color: whitesmoke;
+  margin-left: auto;
+  margin-right: auto;
+}
 
+#regInputBox{
+  width: 20%;
+  margin: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
+input[type=submit]{
+  display: inline-block;
+  background-color: rgb(230,230,230);
+  height: 40px;
+  width: 150px;
+  text-align: center;
 
+  padding:0.2em 1.45em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border:0.15em solid rgb(220,220,220);
+  box-sizing: border-box;
+  font-family:'Segoe UI','Roboto',sans-serif;
+  font-weight:400;
+  font-size: 90%;
+  color:#000000;
+  position:relative;
+  text-decoration: none;
+}

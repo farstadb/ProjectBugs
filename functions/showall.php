@@ -11,7 +11,7 @@ function searchAll() {
         // bugs is the name of our table
 
         // '%' is what we're looking for, % means anything
-        // it will match when you press show all 
+        // it will match when you press show all
 
         echo '<div id="logo">
                     <a href = "../index.php" id = "logo">
@@ -25,7 +25,7 @@ function searchAll() {
                         </form>
                     </div>';
         /* Here the logo is printed out and the search field, so that when the user press the button show all
-        the logo and search bar is appearing in the top. This is so that the user can search again and 
+        the logo and search bar is appearing in the top. This is so that the user can search again and
         go back to the homepage*/
 
 
@@ -55,11 +55,11 @@ function searchAll() {
                 			</div>
                             <div id="prisContainer"><p>'.$results["Pris"].',- kr</p>
                             </div>
-                            <div id ="prisTekst"><p>Pris: </p> 
+                            <div id ="prisTekst"><p>Pris: </p>
                             </div>
                 		</div>';
                 // posts results gotten from database(bugname, bugdescription, instock) you can also show id ($results["id"])
-                // Posted in a "table". 
+                // Posted in a "table".
             }
 
         }
