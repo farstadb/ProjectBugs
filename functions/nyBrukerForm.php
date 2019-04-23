@@ -20,7 +20,7 @@ if($_GET){
 </head>
 <body>
 
-<div id="logo">
+<div id="regLogo">
       <a href = "../index.php" id = "logo">
       <img src = "../images/ProjectBugs_Logo.png">
       </a>
@@ -40,7 +40,9 @@ if($_GET){
     <div id="regInputBox">
         <input type="password" name="Passord" id="Passord" placeholder="Passord">
     </div>
+    <div id="regInputBox">
         <input type="submit" value="Submit">
+     </div>
 </div>
 
   </form>
