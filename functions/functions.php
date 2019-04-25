@@ -77,9 +77,7 @@ function searchQuery() {
 
         }
         else{ // if there is no matching rows do following
-            echo ' <br></br><br></br><br></br>
-            <div style="text-indent: 500px"> Desverre ingen resultater..</div> ';
-            
+            echo '<br> Desverre ingen resultater på det du søkte på. </br>';
         }
 
     }
@@ -95,10 +93,8 @@ function searchQuery() {
                         <input type="text" name="query" placeholder="Search for bugs.." />
                         </form>
                     </div>
-
-                    <br></br><br></br><br></br>
-                    <div style="text-indent: 400px"> Du må skrive noe i søkefeltet for å få resultat.</div> ';
-            
+                    <br>
+                    Du må skrive noe i søkefeltet for å få resultat. </br>';
     } // shows up when the user press enter whitout any input. The logo and search bar appears at the top.
 }
 
