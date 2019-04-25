@@ -13,14 +13,32 @@ $Passord = mysqli_real_escape_string($link, $_REQUEST['Passord']);
 if(($Fornavn&&$Etternavn&&$Mailadresse &&$Passord)  != null){
   $sql = "INSERT INTO bruker (Fornavn, Etternavn, Mailadresse, Passord) VALUES ('$Fornavn', '$Etternavn', '$Mailadresse', '$Passord')";
   if(mysqli_query($link, $sql)){
-      echo "Records added successfully.";
+      echo '<div id="logoBoks">
+                    <a href = "../index.php" id = "logoBoks">
+                    <div align = "center"/>
+                    <img src = "../images/ProjectBugs_Logo.png">
+                    </a>
+                    </div>
+                    <br></br><br></br><br></br>
+                    <div style="text-indent: 670px">
+                    Records added successfully. </div>';
+
+
   }
   else{
       echo "ERROR: Could not able to execute $sql. " . mysqli_error($link);
   }
 }
 else {
-  echo "Feil";
+  echo '<div id="logoBoks">
+                    <a href = "../index.php" id = "logoBoks">
+                    <div align = "center"/>
+                    <img src = "../images/ProjectBugs_Logo.png">
+                    </a>
+                    </div>
+                    <br></br><br></br><br></br>
+                    <div style="text-indent: 650px">
+                    Noe var feil med input - prøv igjen </div>';
 }
 
 // Close connection
