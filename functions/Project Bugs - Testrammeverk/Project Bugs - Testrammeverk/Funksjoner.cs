@@ -20,6 +20,11 @@ namespace Project_Bugs___Testrammeverk
             Variabler.nettleser.FindElement(By.Name("query")).SendKeys(Keys.Enter);
 
         }
+        public static void VerifiserSøk(string søkeord)
+        {
+            String resultatTekst = Variabler.nettleser.FindElement(By.XPath("//h3")).Text;
+            Assert.IsTrue(resultatTekst == søkeord, "Feil: Finner ikke " + søkeord + ".");
+        }
         public static void OpprettBruker(string fornavn, string etternavn, string mail, string passord, bool riktig)
         {
             Variabler.nettleser.FindElement(By.Id("Fornavn")).SendKeys(fornavn);
