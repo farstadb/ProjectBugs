@@ -58,7 +58,14 @@
     <Compile Include="Funksjoner.cs" />
     <Compile Include="Navigering.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Test\Search.cs" />
     <Compile Include="Start.cs" />
+    <Compile Include="Test\SøkFunksjonFirefox.cs" />
+    <Compile Include="Test\Registrering - Chrome.cs" />
+    <Compile Include="Test\Registrering - Firefox.cs" />
+    <Compile Include="Test\Registrering - IE.cs" />
+    <Compile Include="Test\TC1-2.cs" />
+    <Compile Include="Test\TC17-21.cs" />
     <Compile Include="Test\Testcases.cs" />
     <Compile Include="Variabler.cs" />
   </ItemGroup>

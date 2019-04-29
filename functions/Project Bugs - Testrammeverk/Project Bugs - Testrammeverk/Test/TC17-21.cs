@@ -59,6 +59,7 @@ namespace Project_Bugs___Testrammeverk.Test
             string ingenResultat = Variabler.nettleser.FindElement(By.XPath("//div[3]")).Text;
             Assert.IsTrue(ingenResultat == "Desverre ingen resultater..");
         }
+
         [TearDown]
         public void Avslutt()
         {

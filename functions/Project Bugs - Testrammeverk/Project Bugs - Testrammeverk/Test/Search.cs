@@ -10,30 +10,27 @@ using OpenQA.Selenium.IE;
 using OpenQA.Selenium.Support.UI;
 using NUnit.Framework;
 
-namespace Project_Bugs___Testrammeverk
+namespace Project_Bugs___Testrammeverk.Test
 {
-    class SøkFunksjonFirefox
+    class Search
     {
         [SetUp]
         public void Initialiser()
         {
-            Start.Firefox();
+            Start.Chrome();
         }
         [Test]
         public void TC3()
         {
             Navigering.LastHovedside();
             Funksjoner.Søk("Gresshoppe");
-            System.Threading.Thread.Sleep(1000);
             Funksjoner.VerifiserSøk("Gresshoppe");
-
         }
         [Test]
         public void TC4()
         {
             Navigering.LastHovedside();
             Funksjoner.Søk("Sommerfugl");
-            System.Threading.Thread.Sleep(1000);
             Funksjoner.VerifiserSøk("Sommerfugl");
         }
         [Test]
@@ -41,7 +38,6 @@ namespace Project_Bugs___Testrammeverk
         {
             Navigering.LastHovedside();
             Funksjoner.Søk("Marihøne");
-            System.Threading.Thread.Sleep(1000);
             Funksjoner.VerifiserSøk("Marihøne");
         }
         [Test]
@@ -49,7 +45,6 @@ namespace Project_Bugs___Testrammeverk
         {
             Navigering.LastHovedside();
             Funksjoner.Søk("Øyenstikker");
-            System.Threading.Thread.Sleep(1000);
             Funksjoner.VerifiserSøk("Øyenstikker");
         }
         [Test]
@@ -57,7 +52,6 @@ namespace Project_Bugs___Testrammeverk
         {
             Navigering.LastHovedside();
             Funksjoner.Søk("Bie");
-            System.Threading.Thread.Sleep(1000);
             Funksjoner.VerifiserSøk("Bie");
         }
         [Test]
@@ -65,7 +59,6 @@ namespace Project_Bugs___Testrammeverk
         {
             Navigering.LastHovedside();
             Funksjoner.Søk("Flått");
-            System.Threading.Thread.Sleep(1000);
             Funksjoner.VerifiserSøk("Flått");
         }
         [Test]
@@ -73,7 +66,6 @@ namespace Project_Bugs___Testrammeverk
         {
             Navigering.LastHovedside();
             Funksjoner.Søk("Sølvkre");
-            System.Threading.Thread.Sleep(1000);
             Funksjoner.VerifiserSøk("Sølvkre");
         }
         [Test]
@@ -81,7 +73,6 @@ namespace Project_Bugs___Testrammeverk
         {
             Navigering.LastHovedside();
             Funksjoner.Søk("Bille");
-            System.Threading.Thread.Sleep(1000);
             Funksjoner.VerifiserSøk("Bille");
         }
         [Test]
@@ -89,7 +80,6 @@ namespace Project_Bugs___Testrammeverk
         {
             Navigering.LastHovedside();
             Funksjoner.Søk("Mygg");
-            System.Threading.Thread.Sleep(1000);
             Funksjoner.VerifiserSøk("Mygg");
         }
         [TearDown]
