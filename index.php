@@ -3,7 +3,8 @@
 <html>
 <head>
     <title>How Many Bugs Can you find?</title> <!-- Tittel of the TAB  -->
-    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" /> <!-- Uses scandinavian characters -->
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Uses scandinavian characters -->
     <link rel="stylesheet" type="text/css" href="css/style.css"/> <!-- Inlcuding the styling CSS file -->
 </head>
 <body>
