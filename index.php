@@ -15,7 +15,7 @@
                 <img src = "images/ProjectBugs_Logo.png"> <!-- Gets the logo images from the images folder -->
             </div>
     		<a href="functions/searchall.php" class = "showAll"> Show all </a> <!-- the button for "ShowAll" and links it to searchall.php-->
-            <a href="functions/nyBrukerForm.php" class ="oppretteBrukerKnapp">Opprette ny bruker</a>
+            <a href="functions/nyBrukerForm.php" class="oppretteBrukerKnapp"> Opprett bruker </a>
     	</div>
     	
 </body>

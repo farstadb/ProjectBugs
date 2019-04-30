@@ -240,6 +240,7 @@ input[type=password], select {
 }
 
 input[type=submit]{
+
   display: inline-block;
   background-color: rgb(230,230,230);
   height: 40px;
