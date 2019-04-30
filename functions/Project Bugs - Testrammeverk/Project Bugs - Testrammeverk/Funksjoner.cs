@@ -18,7 +18,11 @@ namespace Project_Bugs___Testrammeverk
         {
             Variabler.nettleser.FindElement(By.Name("query")).SendKeys(søkeord);
             Variabler.nettleser.FindElement(By.Name("query")).SendKeys(Keys.Enter);
-
+        }
+        public static void VerifiserSøk(string søkeord)
+        {
+            String resultatTekst = Variabler.nettleser.FindElement(By.XPath("//h3")).Text;
+            Assert.IsTrue(resultatTekst == søkeord, "Feil: Finner ikke " + søkeord + ".");
         }
         public static void OpprettBruker(string fornavn, string etternavn, string mail, string passord, bool riktig)
         {
@@ -29,7 +33,7 @@ namespace Project_Bugs___Testrammeverk
             Variabler.nettleser.FindElement(By.XPath("//div[5]/input")).Click();
             Variabler.nyURL = Variabler.nettleser.Url;
             Assert.IsTrue(Variabler.nyURL == "http://localhost:8080/ProjectBugs/functions/user.php", "Feil: Kommer ikke til riktig side");
-            String tekst = Variabler.nettleser.FindElement(By.XPath("//body")).Text;
+            String tekst = Variabler.nettleser.FindElement(By.XPath("//div[@id='logoBoks']/div[2]")).Text;
 
             if (riktig == true)
             {
@@ -37,7 +41,7 @@ namespace Project_Bugs___Testrammeverk
             }
             else
             {
-                Assert.IsTrue(tekst == "Feil", "Feil: 'Feil' tilbakemelding kommer ikke opp.");
+                Assert.IsTrue(tekst == "Noe var feil med input - prøv igjen", "Feil: 'Feil' tilbakemelding kommer ikke opp.");
             }
         }
 

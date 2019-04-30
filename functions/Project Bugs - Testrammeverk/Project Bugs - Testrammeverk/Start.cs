@@ -9,6 +9,7 @@ using OpenQA.Selenium.Firefox;
 using OpenQA.Selenium.IE;
 using OpenQA.Selenium.Support.UI;
 using NUnit.Framework;
+using OpenQA.Selenium.Remote;    
 
 namespace Project_Bugs___Testrammeverk
 {
