@@ -7,20 +7,39 @@
 <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!--using header code that is already made-->
+<head>
+<script src ="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+</head>
+<script>
+  $(function(){
+    $('#header').load('../reusablecode.html');
+  });
+
+</script>
+
 <style>
 html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
 .w3-sidebar {
   z-index: 3;
   width: 250px;
-  top: 43px;
+  top: 100px;
   bottom: 0;
   height: inherit;
+  position: fixed;
 }
 </style>
 <body>
 
+  <div class ="cointaner">
+  <header>
+    <div id ="header">
+    </div>
+  </header>
+
 <!-- Sidebar -->
-<nav class="w3-sidebar w3-bar-block w3-collapse w3-large w3-theme-l5 w3-animate-left" id="mySidebar">
+<nav class="w3-sidebar w3-bar-block w3-collapse w3-large w3-theme-l5" id="mySidebar">
   <a href="javascript:void(0)" onclick="w3_close()" class="w3-right w3-xlarge w3-padding-large w3-hover-black w3-hide-large" title="Close Menu">
     <i class="fa fa-remove"></i>
   </a>
@@ -40,6 +59,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
 
   <div class="w3-row w3-padding-64">
     <div class="w3-twothird w3-container">
+      <br></br>
       <h1 class="w3-text-teal"id ="Headline">Populering</h1>
       <p>
       </p>
@@ -64,31 +84,6 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
     </div>
     <!-- END MAIN -->
 </div>
-
-<script>
-// Get the Sidebar
-var mySidebar = document.getElementById("mySidebar");
-
-// Get the DIV with overlay effect
-var overlayBg = document.getElementById("myOverlay");
-
-// Toggle between showing and hiding the sidebar, and add overlay effect
-function w3_open() {
-  if (mySidebar.style.display === 'block') {
-    mySidebar.style.display = 'none';
-    overlayBg.style.display = "none";
-  } else {
-    mySidebar.style.display = 'block';
-    overlayBg.style.display = "block";
-  }
-}
-
-// Close the sidebar with the close button
-function w3_close() {
-  mySidebar.style.display = "none";
-  overlayBg.style.display = "none";
-}
-</script>
 
 </body>
 </html>
