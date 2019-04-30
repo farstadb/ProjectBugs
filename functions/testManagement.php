@@ -32,8 +32,8 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
   <a class="w3-bar-item w3-button w3-hover-black" href="#Assignment1">Assignment 1</a>
   <a class="w3-bar-item w3-button w3-hover-black" href="#Assignment2">Assignment 2</a>
   <br></br>
-  <a class="w3-bar-item w3-button w3-hover-black" href="#">[Link to Generation]</a>
-  <a class="w3-bar-item w3-button w3-hover-black" href="#">[Link to Population]</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="http://localhost:8080/projectbugs/functions/generatingLink.php">[Link to Generation]</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="http://localhost:8080/projectbugs/functions/populatingLink.php">[Link to Population]</a>
   <br></br><a class="w3-bar-item w3-button w3-hover-black" href="http://localhost:8080/projectbugs/index.php"target="_blank">Go to test site</a>
 </nav>
 
