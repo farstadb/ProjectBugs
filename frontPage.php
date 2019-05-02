@@ -1,10 +1,12 @@
 <!--            THE MAIN FILE THAT RUNS THE WHOLE SOLUTION          -->
 <!DOCTYPE html>
 <html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <head>
     <title>Test Arena</title> <!-- Tittel of the TAB  -->
     <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" /> <!-- Uses scandinavian characters -->
     <link rel="stylesheet" type="text/css" href="css/style.css"/> <!-- Inlcuding the styling CSS file -->
+
 </head>
     	
 <style>
@@ -80,6 +82,7 @@
 		</div>
 	</div>
 	<h1> Welcome to Training Arena!</h1>
-	<p> Find bugs, learn test automation and more </p>
+	<p> Find bugs, learn test automation and more </p> <br></br>
+	<a href = "http://localhost:8080/projectbugs/index.php" target="_blank" style="color:black"> <h3>Go to the test site!</h3> </a>
 </body>
 </html>
