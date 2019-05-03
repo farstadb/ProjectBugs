@@ -60,7 +60,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
   <div class="w3-row w3-padding-64">
     <div class="w3-twothird w3-container">
     	<br></br>
-      <h1 class="w3-text-teal"id ="Headline">Generating</h1>
+      <h1 class="w3-text-teal"id ="Headline">Test Data Generating</h1>
       <p>
       </p>
     </div>
@@ -68,7 +68,8 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
     <div class="w3-row w3-padding-64">
     <div class="w3-twothird w3-container">
       <h2 class="w3-text-teal"id ="Info">Introduction</h2>
-      <p>Generating data
+      <p>In this section you will learn about the test data management which is a very important part in software testing. You will learn about: What is test data management, How to generate, and How to  use test data.
+
     </div>
 
   <div class="w3-row">
