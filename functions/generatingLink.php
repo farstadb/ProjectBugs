@@ -32,7 +32,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
 </style>
 <body>
 
-<div class ="cointaner">
+<div class ="container">
   <header>
     <div id ="header">
     </div>
@@ -47,8 +47,11 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
   <a class="w3-bar-item w3-button w3-hover-black" href="http://localhost:8080/projectbugs/functions/testManagement.php">Back to Test Data Management</a>
 
   <br></br>
-  <a class="w3-bar-item w3-button w3-hover-black" href="http://localhost:8080/projectbugs/functions/generatingLink.php">[Link to Generation]</a>
-  <a class="w3-bar-item w3-button w3-hover-black" href="http://localhost:8080/projectbugs/functions/populatingLink.php">[Link to Population]</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="http://localhost:8080/projectbugs/functions/generatingLink.php">[Generation-Document]</a>
+  <a class="w3-bar-item w3-button w3-hover-black" span style="margin-left:2em" href="#top">Introduction</a>
+  <a class="w3-bar-item w3-button w3-hover-black" span style="margin-left:2em" href="#Info">What is generating</a>
+  <a class="w3-bar-item w3-button w3-hover-black" span style="margin-left:2em" href="#What">How to do it</a> <br>
+  <a class="w3-bar-item w3-button w3-hover-black" href="http://localhost:8080/projectbugs/functions/populatingLink.php">[Population-Document]</a>
   <br></br><a class="w3-bar-item w3-button w3-hover-black" href="http://localhost:8080/projectbugs/index.php"target="_blank">Go to test site</a>
 </nav>
 
@@ -60,7 +63,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
   <div class="w3-row w3-padding-64">
     <div class="w3-twothird w3-container">
     	<br></br>
-      <h1 class="w3-text-teal"id ="Headline">Test Data Generating</h1>
+      <h1 class="w3-text-teal"id ="Headline">Get started with Test Data Generation</h1>
       <p>
       </p>
     </div>
@@ -68,20 +71,33 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
     <div class="w3-row w3-padding-64">
     <div class="w3-twothird w3-container">
       <h2 class="w3-text-teal"id ="Info">Introduction</h2>
-      <p>In this section you will learn about the test data management which is a very important part in software testing. You will learn about: What is test data management, How to generate, and How to  use test data.
-
+      <p> Welcome to Test Data Generation. Here you will learn how to generate data, and how to set up a tool for this. 
     </div>
 
   <div class="w3-row">
     <div class="w3-twothird w3-container">
       <h2 class="w3-text-teal" id ="What">What is generating</h2>
-      <p>what it is</p>
+      <p>When applying Test Data Generation, you find a tool that allows you to generate a high number of users, in a short period of time. This will lead to higher quality of testing, and is easier to use, than to type in a high number of users manually.</p>
     </div>
 
   <div class="w3-row w3-padding-64">
     <div class="w3-twothird w3-container">
-      <h2 class="w3-text-teal"id ="Generate">how to</h2>
-      <p>How to .</p>
+      <h2 class="w3-text-teal"id ="Generate">How to do it</h2>
+      <p>One good tool to use for this is: Mockaroo
+      Mockaroo lets you generate up to 1,000 rows of realistic test data in CSV, JSON, SQL, and Excel formats. 
+      <a href = "http://mockaroo.com/" target="_blank" >URL: https://mockaroo.com/ (Does not need installation).</a>
+      <br></br> Here are som screenshots from the site. It shows some default fields. 
+      We need to modify the fields according to the "Project Bugs". 
+      <br></br>
+      <img src="../images/generation1.jpg">
+      <br></br>For Project Bugs we are using following fields: <br></br>
+      <img src ="../images/generation2.jpg">
+      <br></br> Scroll down to #Rows and Format, we need 1000 rows and in Excel-format. 
+      Press Download data. 
+      <img src ="../images/generation3.jpg"><br></br>
+      Save your file! Voilà - you are finished!
+  	</p>
+  	<p><a href="#top">Top</a></p>
     </div>
     <!-- END MAIN -->
 </div>

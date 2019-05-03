@@ -35,7 +35,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
 <!--the code for test data management-->
 <body>
 
-<div class ="cointaner">
+<div class ="container">
   <header>
     <div id ="header">
     </div>
@@ -49,12 +49,12 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
   <a class="w3-bar-item w3-button w3-hover-black" href="#top">Introduction</a>
   <a class="w3-bar-item w3-button w3-hover-black" href="#Info">What is Test Data Management</a>
   <a class="w3-bar-item w3-button w3-hover-black" href="#What">Generating Test Data</a>
-  <a class="w3-bar-item w3-button w3-hover-black" href="#Generating">Importing Test Data</a>
-  <a class="w3-bar-item w3-button w3-hover-black" href="#Importing">Assignment 1</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="#Importing">Importing Test Data</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="#Assignment1">Assignment 1</a>
   <a class="w3-bar-item w3-button w3-hover-black" href="#Assignment1">Assignment 2</a>
   <br></br>
-  <a class="w3-bar-item w3-button w3-hover-black" href="http://localhost:8080/projectbugs/functions/generatingLink.php">[Link to Generation]</a>
-  <a class="w3-bar-item w3-button w3-hover-black" href="http://localhost:8080/projectbugs/functions/populatingLink.php">[Link to Population]</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="http://localhost:8080/projectbugs/functions/generatingLink.php">[Generation-Document]</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="http://localhost:8080/projectbugs/functions/populatingLink.php">[Population-Document]</a>
   <br></br><a class="w3-bar-item w3-button w3-hover-black" href="http://localhost:8080/projectbugs/index.php"target="_blank">Go to test site</a>
 </nav>
 
@@ -95,7 +95,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
 
         Here we are using "Mockaroo" tool for just an example purpose.
         Mockaroo lets you generate up to 1,000 rows of realistic test data in CSV, JSON, SQL, and Excel formats.
-        URL: https://mockaroo.com/ (Doesn’t need installation)
+        <a href = "http://mockaroo.com/" target="_blank" >URL: https://mockaroo.com/ (Does not need installation).</a>
 
         Screenshot from the site. It shows some default fields. 
         We need to modify the fields according to the “Project Bugs”.<br /><br />
@@ -126,48 +126,46 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
       <h2 class="w3-text-teal"id ="Importing">Importing Test Data</h2>
       <p>It has been developed a custom program to import test data to Project Bugs site; ExportTestData.exe
 
-Per now we are importing data for following function:<br /><br />
+        Per now we are importing data for following function:<br /><br />
 
-· New user registration (First name, sir name, email, password)<br /><br />
+        · New user registration (First name, sir name, email, password)<br /><br />
 
-Check following before importing the test data:<br /><br />
+        Check following before importing the test data:<br /><br />
 
-· Apache and MySQL server must be started<br /><br />
+        · Apache and MySQL server must be started<br /><br />
 
-· Chrome is installed · Follow the steps in: How to start with Project Bugs<br /><br />
+        · Chrome is installed · Follow the steps in: How to start with Project Bugs<br /><br />
 
-· Follow the steps in: Setup – Testautomatisering med Selenium<br /><br />
+        · Follow the steps in: Setup – Testautomatisering med Selenium<br /><br />
 
-· Fetch the latest code?<br /><br />
+        · Fetch the latest code?<br /><br />
 
-To start with importing the Test Data, do the following:<br /><br />
+        To start with importing the Test Data, do the following:<br /><br />
 
-1. Navigate to:
+        1. Navigate to:
 
-...\xampp\htdocs\ProjectBugs\functions\ExportTestData\ExportTestData\bin\Debug<br /><br />
+        ...\xampp\htdocs\ProjectBugs\functions\ExportTestData\ExportTestData\bin\Debug<br /><br />
 
-<img src= "../images/dataimp1.png" width="800" height="400"><br /><br />
+        <img src= "../images/dataimp1.png" width="800" height="400"><br /><br />
 
-2.  Save the test data file<br /><br />
-Save the data file in Excel format in same folder and rename it to: TestDataUsers.xlsx<br /><br />
+        2.  Save the test data file<br /><br />
+        Save the data file in Excel format in same folder and rename it to: TestDataUsers.xlsx<br /><br />
 
- 
+         
 
-3.  Run the file ExportTestData.exe<br /><br />
+        3.  Run the file ExportTestData.exe<br /><br />
 
-You will see the console showing you data which is imported.<br /><br />
+        You will see the console showing you data which is imported.<br /><br />
 
-<img src= "../images/dataimp2.png" width="800" height="400"><br /><br />
+        <img src= "../images/dataimp2.png" width="800" height="400"><br /><br />
 
-After importing the data, it will start Chrome and all data will be registered in the fields automatically by Selenium.<br /><br />
+        After importing the data, it will start Chrome and all data will be registered in the fields automatically by Selenium.<br /><br />
 
-<img src= "../images/dataimp3.png" width="500" height="400"><br /><br />
+        <img src= "../images/dataimp3.png" width="500" height="400"><br /><br />
 
-After all the test data is registered, then it will close Chrome and you can close the console window.
-The user database has now been updated with the imported Test Data. <br /><br />
-
-
-</p>
+        After all the test data is registered, then it will close Chrome and you can close the console window.
+        The user database has now been updated with the imported Test Data. <br /><br />
+    </p>
     </div>
 
     <div class="w3-row w3-padding-64">
