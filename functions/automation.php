@@ -25,7 +25,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
 .w3-sidebar {
   z-index: 3;
   width: 250px;
-  top:100px;
+  top:120px;
   bottom: 0;
   height: inherit;
   position: fixed;
@@ -67,7 +67,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
   <div class="w3-row w3-padding-64">
     <div class="w3-twothird w3-container">
       <br></br>
-      <h1 class="w3-text-teal"id ="Headline">Test Data Management</h1>
+      <h1 class="w3-text-teal"id ="Headline">Test Automation</h1>
       <p>
       </p>
     </div>
