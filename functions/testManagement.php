@@ -25,7 +25,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
 .w3-sidebar {
   z-index: 3;
   width: 250px;
-  top:100px;
+  top:120px;
   bottom: 0;
   height: inherit;
   position: fixed;
