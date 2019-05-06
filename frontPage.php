@@ -13,7 +13,7 @@
 <style>
 	#header
 	{
-		height: 100px;
+		height: 120px;
 		width: 100%;
 		background-color:white;
 		position:relative;
@@ -21,9 +21,10 @@
 	body
 	{
 		margin:0px;
-		font-family: sans-serif;
+		font-family: Ubuntu, Verdana, Avenir, Helvetica, Arial, sans-serif;
 		font-size: 100%;
-		line-height: 1.4;
+		line-height:1.4;
+		padding-bottom:0;
 	}
 
 	body
@@ -34,41 +35,46 @@
 	}
 	#imageContainer
 	{
-		height:100%;
-		width:200px;
+		height:90px;
+		width:240px;
 		position:absolute;
-		top:0px;
-		left:0px;
-		right:50px;
+		padding:20px;
+		left:60px;
+		right:0px;
+		bottom: 0px;
+		max-width: 304px;
+		flex-grow: 1;
+		line-height: 90px;
 
 	}
 	#imageContainer img
 	{
-		width:100%;
-		height: 100%;
+		width:60%;
+		height: 90px;
 	}
 	.navbar
 	{
 		overflow: hidden;
-		background-color: transparent;
+		background-color: rgb(255,255,255);
 		float: left;
-		margin-left: 420px;
+		margin-left: 400px;
 		display: inline-block;
 	}
 	.navbar a 
 	{
 		float: left;
 		font-size: 16px;
-		color: blue;
-		text-align: left;
-		padding: 14px 16px;
+		color: rgb(0, 112, 173);
+		text-align: center;
 		text-decoration: none;
+		box-shadow: rgba(100,100,100,0.49);
 	}
 
 	.dropdown 
 	{
 		float:left;
 		overflow: hidden;
+		display: inline-block;
 	}
 
 	.dropbtn 
@@ -76,10 +82,12 @@
 		font-size: 16px;
 		border: none;
 		outline: none;
-		color: blue;
+		color: rgb(0,112,173);
 		padding: 16px;
 		background-color: inherit;
-		font-family: green;
+		font-family: Ubuntu, Verdana, Avenir, Helvetica, Arial, sans-serif;
+		font-weight: 500;
+		text-decoration-style: solid;
 		margin:30px;
 	}
 
@@ -100,27 +108,27 @@
 		background-color: inherit;
 		min-width: 160px;
 		padding: 16px;
-		z-index:1;
-		font-family: green;
+		z-index:9998;
+		font-family: Ubuntu, Verdana, Avenir, Helvetica, Arial, sans-serif;
 		overflow: auto;
 		align-self: center;
 	}
 	.dropdown-content a 
 	{
 		float:none;
-		color: black;
-		padding: 12px 16px;
+		color: rgb(0,112,173);
+		padding: 12px 14px;
 		text-decoration: none;
-		display: block;
+		display: inline-block;
 		text-align: center;
 	}
 	.dropdown-content a:hover 
 	{
-		background-color: white;
+		background-color: grey;
 	}
 	.dropdown:hover .dropdown-content
 	{
-		display:block;
+		display:inline-block;
 	}
 </style>
 <body>
