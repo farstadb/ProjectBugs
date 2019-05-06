@@ -139,15 +139,7 @@
 			</div>
 		</div>
 				<a href = "http://localhost:8080/projectbugs/functions/testManagement.php" class="dropbtn" class="dropdown">Test Management</a>
-			</div>
-			<div class="dropdown">
-					<button class = "dropbtn">Performance
-						<i class="fa fa-caret-down"></i>
-					</button>
-			<div class="dropdown-content">
-				<a href = "Test arena/TestArena.html"> Tools </a>
-				<a href = "Test arena/TestArena.html"> Testing </a>				<a href = "Test arena/TestArena.html"> Method </a>
-			</div>
+				<a href = "http://localhost:8080/projectbugs/functions/automation.php" class="dropbtn" class="dropdown">Automation</a>
 			</div>
 			<div class="dropdown">
 					<button class = "dropbtn">Cyber Security
