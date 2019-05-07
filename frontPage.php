@@ -13,7 +13,7 @@
 <style>
 	#header
 	{
-		height: 120px;
+		height: 130px;
 		width: 100%;
 		background-color:white;
 		position:relative;
@@ -86,41 +86,47 @@
 		padding: 16px;
 		background-color: inherit;
 		font-family: Ubuntu, Verdana, Avenir, Helvetica, Arial, sans-serif;
-		font-weight: 500;
+		font-weight: 700;
 		text-decoration-style: solid;
-		margin:30px;
+		border:none;
+		margin-top: 20px;
+		margin-right: 20px;
 	}
 
 	.dropdown .dropbtn
 	{
+		margin-bottom: 0px;
 		border: none;
-		margin-bottom: 0;
 	}
 
 	.navbar a:hover, .dropdown:hover .dropbtn 
 	{
-		background-color: grey;
+		background-color: rgb(228,228,228);
 	}
 	.dropdown-content 
 	{
 		display: none;
 		position: absolute;
-		background-color: inherit;
+		background-color: rgb(228,228,228);
 		min-width: 160px;
-		padding: 16px;
-		z-index:9998;
+		z-index:1;
 		font-family: Ubuntu, Verdana, Avenir, Helvetica, Arial, sans-serif;
-		overflow: auto;
-		align-self: center;
+		border: none;
+		padding: 12px 16px;
+		font-size: 16px;
+		outline: none;
+		margin left: none;
+		box-shadow: 0px 8px 16px 0px;
 	}
 	.dropdown-content a 
 	{
 		float:none;
 		color: rgb(0,112,173);
-		padding: 12px 14px;
+		padding:12px 16px;
 		text-decoration: none;
-		display: inline-block;
-		text-align: center;
+		display:block;
+		text-align: left;
+		border:0;
 	}
 	.dropdown-content a:hover 
 	{
@@ -128,7 +134,7 @@
 	}
 	.dropdown:hover .dropdown-content
 	{
-		display:inline-block;
+		display:block;
 	}
 </style>
 <body>
@@ -147,7 +153,15 @@
 			</div>
 		</div>
 				<a href = "http://localhost:8080/projectbugs/functions/testManagement.php" class="dropbtn" class="dropdown">Test Data Management</a>
-				<a href = "http://localhost:8080/projectbugs/functions/automation.php" class="dropbtn" class="dropdown">Automation</a>
+				<div class="dropdown">
+			<button class = "dropbtn">Automation
+			<i class="fa fa-caret-down"></i>
+		</button>
+						<div class="dropdown-content">
+						<a href = http://localhost:8080/projectbugs/functions/automation.php class="dropbtn"> About Automation </a>
+						<a href = "Test arena/TestArena.html"> Selenium </a>
+						<a href = "Test arena/TestArena.html"> UiPath </a>
+					</div>
 			</div>
 			<div class="dropdown">
 					<button class = "dropbtn">Cyber Security
@@ -168,6 +182,7 @@
 					</div>
 			</div>
 		</div>
+	</div>
 	<h1> Welcome to Training Arena!</h1>
 	<p> Find bugs, learn test automation and more </p> <br></br>
 	<a href = "http://localhost:8080/projectbugs/index.php" target="_blank" style="color:black"> <h3>Go to the test site!</h3> </a>
