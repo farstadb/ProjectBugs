@@ -47,11 +47,12 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
   <a class="w3-bar-item w3-button w3-hover-black" href="http://localhost:8080/projectbugs/functions/testManagement.php">Back to Test Data Management</a>
 
   <br></br>
-  <a class="w3-bar-item w3-button w3-hover-black" href="http://localhost:8080/projectbugs/functions/generatingLink.php">[Generation-Document]</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="http://localhost:8080/projectbugs/functions/generatingLink.php">Test-Generation</a>
   <a class="w3-bar-item w3-button w3-hover-black" span style="margin-left:2em" href="#top">Introduction</a>
   <a class="w3-bar-item w3-button w3-hover-black" span style="margin-left:2em" href="#Info">What is generating</a>
-  <a class="w3-bar-item w3-button w3-hover-black" span style="margin-left:2em" href="#What">How to do it</a> <br>
-  <a class="w3-bar-item w3-button w3-hover-black" href="http://localhost:8080/projectbugs/functions/populatingLink.php">[Population-Document]</a>
+  <a class="w3-bar-item w3-button w3-hover-black" span style="margin-left:2em" href="#What">How to do it</a>
+  <a class="w3-bar-item w3-button w3-hover-black" span style="margin-left:2em" href="#Assignment1">Assignment 1</a> <br>
+  <a class="w3-bar-item w3-button w3-hover-black" href="http://localhost:8080/projectbugs/functions/populatingLink.php">Test-Population</a>
   <br></br><a class="w3-bar-item w3-button w3-hover-black" href="http://localhost:8080/projectbugs/index.php"target="_blank">Go to test site</a>
 </nav>
 
@@ -71,7 +72,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
     <div class="w3-row w3-padding-64">
     <div class="w3-twothird w3-container">
       <h2 class="w3-text-teal"id ="Info">Introduction</h2>
-      <p> Welcome to Test Data Generation. Here you will learn how to generate data, and how to set up a tool for this. 
+      <p> Welcome to Test Data Generation. Here you will learn how to generate data, and how to set up a tool for this. There will also be an assignment for this. 
     </div>
 
   <div class="w3-row">
@@ -97,7 +98,13 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
       <img src ="../images/generation3.jpg"><br></br>
       Save your file! Voilà - you are finished!
   	</p>
-  	<p><a href="#top">Top</a></p>
+    </div>
+
+    <div class="w3-row w3-padding-64">
+    <div class="w3-twothird w3-container">
+      <h2 class="w3-text-teal"id ="Assignment1">Assignment 1: Generate Test Data</h2>
+      <p>Generate Test Data by using the following website.</p>
+        	<p><a href="#top">Top</a></p>
     </div>
     <!-- END MAIN -->
 </div>

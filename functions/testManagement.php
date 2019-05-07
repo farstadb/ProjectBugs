@@ -48,13 +48,10 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
   <h4 class="w3-bar-item"><b>Menu</b></h4>
   <a class="w3-bar-item w3-button w3-hover-black" href="#top">Introduction</a>
   <a class="w3-bar-item w3-button w3-hover-black" href="#Info">What is Test Data Management</a>
-  <a class="w3-bar-item w3-button w3-hover-black" href="#What">Generating Test Data</a>
-  <a class="w3-bar-item w3-button w3-hover-black" href="#Importing">Importing Test Data</a>
-  <a class="w3-bar-item w3-button w3-hover-black" href="#Assignment1">Assignment 1</a>
-  <a class="w3-bar-item w3-button w3-hover-black" href="#Assignment1">Assignment 2</a>
+
   <br></br>
-  <a class="w3-bar-item w3-button w3-hover-black" href="http://localhost:8080/projectbugs/functions/generatingLink.php">[Generation-Document]</a>
-  <a class="w3-bar-item w3-button w3-hover-black" href="http://localhost:8080/projectbugs/functions/populatingLink.php">[Population-Document]</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="http://localhost:8080/projectbugs/functions/generatingLink.php">Test-Generation</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="http://localhost:8080/projectbugs/functions/populatingLink.php">Test-Population</a>
   <br></br><a class="w3-bar-item w3-button w3-hover-black" href="http://localhost:8080/projectbugs/index.php"target="_blank">Go to test site</a>
 </nav>
 
@@ -85,113 +82,13 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
       <h2 class="w3-text-teal" id ="What">What is Test Data</h2>
       <p>Test Data is data that is going to be used for the purpose of testing. When sets of usernames and passwords to test a login function for example, then those usernames and passwords are considered test data. <br></br>
 
-      When working with large amounts of test data it is useful to have a way to manage this data through the use of tools.</p>
-    </div>
+      When working with large amounts of test data it is useful to have a way to manage this data through the use of tools.
 
-  <div class="w3-row w3-padding-64">
-    <div class="w3-twothird w3-container">
-      <h2 class="w3-text-teal"id ="Generating">Generating Test Data</h2>
-      <p>There are several ways to generate test data. One can do it manually or generate data with the use of Data Generation tools. With Data Generation tools you can quickly create sets of test data for use in your project. <br /><br />
-
-        Here we are using "Mockaroo" tool for just an example purpose.
-        Mockaroo lets you generate up to 1,000 rows of realistic test data in CSV, JSON, SQL, and Excel formats.
-        <a href = "http://mockaroo.com/" target="_blank" >URL: https://mockaroo.com/ (Does not need installation).</a>
-
-        Screenshot from the site. It shows some default fields. 
-        We need to modify the fields according to the “Project Bugs”.<br /><br />
-
-        <img src= "../images/datagen1.png" width="600" height="300"><br /><br />
-
-        By clicking here, you can modify the fields.<br /><br />
-
-        <img src= "../images/datagen2.png" width="600" height="350"><br /><br />
-
-
-        For Project Bugs (Test site) we are using following fields: <br /><br />
-
-        <img src= "../images/datagen3.png" width="800" height="300"><br /><br />
-
-        Scroll down to #Rows and Format, we need 1000 rows and in Excel-format.
-        Press Download Data. <br /><br />
-
-        <img src= "../images/datagen4.png" width="800" height="400"><br /><br />
-
-        Save your file! Voilà – you are finished! 
-
+      <br> Fill in that you can use both generating and populating.. blablabla
       </p>
+          <p><a href="#top">Top</a></p>
     </div>
-
-    <div class="w3-row w3-padding-64">
-    <div class="w3-twothird w3-container">
-      <h2 class="w3-text-teal"id ="Importing">Importing Test Data</h2>
-      <p>It has been developed a custom program to import test data to Project Bugs site; ExportTestData.exe
-
-        Per now we are importing data for following function:<br /><br />
-
-        · New user registration (First name, sir name, email, password)<br /><br />
-
-        Check following before importing the test data:<br /><br />
-
-        · Apache and MySQL server must be started<br /><br />
-
-        · Chrome is installed · Follow the steps in: How to start with Project Bugs<br /><br />
-
-        · Follow the steps in: Setup – Testautomatisering med Selenium<br /><br />
-
-        · Fetch the latest code?<br /><br />
-
-        To start with importing the Test Data, do the following:<br /><br />
-
-        1. Navigate to:
-
-        ...\xampp\htdocs\ProjectBugs\functions\ExportTestData\ExportTestData\bin\Debug<br /><br />
-
-        <img src= "../images/dataimp1.png" width="800" height="400"><br /><br />
-
-        2.  Save the test data file<br /><br />
-        Save the data file in Excel format in same folder and rename it to: TestDataUsers.xlsx<br /><br />
-
-         
-
-        3.  Run the file ExportTestData.exe<br /><br />
-
-        You will see the console showing you data which is imported.<br /><br />
-
-        <img src= "../images/dataimp2.png" width="800" height="400"><br /><br />
-
-        After importing the data, it will start Chrome and all data will be registered in the fields automatically by Selenium.<br /><br />
-
-        <img src= "../images/dataimp3.png" width="500" height="400"><br /><br />
-
-        After all the test data is registered, then it will close Chrome and you can close the console window.
-        The user database has now been updated with the imported Test Data. <br /><br />
-    </p>
-    </div>
-
-    <div class="w3-row w3-padding-64">
-    <div class="w3-twothird w3-container">
-      <h2 class="w3-text-teal"id ="Assignment1">Assignment 1: Generate Test Data</h2>
-      <p>Generate Test Data by using the following website.</p>
-    </div>
-
-    <div class="w3-row w3-padding-64">
-    <div class="w3-twothird w3-container">
-      <h3 class="w3-text-teal">How to do it yourself</h3>
-      <p>....</p>
-    </div>
-
-    <div class="w3-row w3-padding-64">
-    <div class="w3-twothird w3-container">
-      <h2 class="w3-text-teal"id ="Assignment2">Assignment 2: Import Test Data</h2>
-      <p>Import the test data generated in Assignment 1 to the Project bugs website.</p>
-    </div>
-
-    <div class="w3-row w3-padding-64">
-    <div class="w3-twothird w3-container">
-      <h3 class="w3-text-teal">How to do it yourself</h3>
-      <p>......</p>
-      <p><a href="#top">Top</a></p>
-    </div>
+ 
 
 
 <!-- END MAIN -->

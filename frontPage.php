@@ -146,7 +146,7 @@
 				<a href = "Test arena/TestArena.html"> Test Arena </a>			<a href = "Test arena/TestArena.html"> News </a>
 			</div>
 		</div>
-				<a href = "http://localhost:8080/projectbugs/functions/testManagement.php" class="dropbtn" class="dropdown">Test Management</a>
+				<a href = "http://localhost:8080/projectbugs/functions/testManagement.php" class="dropbtn" class="dropdown">Test Data Management</a>
 				<a href = "http://localhost:8080/projectbugs/functions/automation.php" class="dropbtn" class="dropdown">Automation</a>
 			</div>
 			<div class="dropdown">
