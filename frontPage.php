@@ -167,9 +167,10 @@
 			<i class="fa fa-caret-down"></i>
 		</button>
 						<div class="dropdown-content">
-						<a href = http://localhost:8080/projectbugs/functions/automation.php class="dropbtn"> About Automation </a>
-						<a href = "Test arena/TestArena.html"> Selenium </a>
-						<a href = "Test arena/TestArena.html"> UiPath </a>
+						<a href = "http://localhost:8080/projectbugs/functions/automation.php" class="dropbtn"> About Automation </a>
+						<a href = "http://localhost:8080/projectbugs/functions/seleniumSetup.php"> Selenium </a>
+						<a href = "http://localhost:8080/projectbugs/functions/uiPath.php"> UiPath </a>
+						<a href = "http://localhost:8080/projectbugs/functions/testComplete.php"> TestComplete </a>
 					</div>
 			</div>
 			<div class="dropdown">
