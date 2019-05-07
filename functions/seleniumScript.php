@@ -44,11 +44,11 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
     <i class="fa fa-remove"></i>
   </a>
   <h4 class="w3-bar-item"><b>Menu</b></h4>
-  <a class="w3-bar-item w3-button w3-hover-black" href="http://localhost:8080/projectbugs/functions/testManagement.php">Back to Test Data Management</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="http://localhost:8080/projectbugs/functions/automation.php">Back to Automation</a>
 
   <br></br>
-  <a class="w3-bar-item w3-button w3-hover-black" href="http://localhost:8080/projectbugs/functions/generatingLink.php">[Generation-Document]</a>
-  <a class="w3-bar-item w3-button w3-hover-black" href="http://localhost:8080/projectbugs/functions/populatingLink.php">[Population-Document]</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="http://localhost:8080/projectbugs/functions/seleniumSetup.php">[Setting up Selenium]</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="http://localhost:8080/projectbugs/functions/seleniumScript.php">[Writing Selenium Scripts]</a>
   <br></br><a class="w3-bar-item w3-button w3-hover-black" href="http://localhost:8080/projectbugs/index.php"target="_blank">Go to test site</a>
 </nav>
 
@@ -60,7 +60,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
   <div class="w3-row w3-padding-64">
     <div class="w3-twothird w3-container">
       <br></br>
-      <h1 class="w3-text-teal"id ="Headline">Populering</h1>
+      <h1 class="w3-text-teal"id ="Headline">Automation</h1>
       <p>
       </p>
     </div>
@@ -68,18 +68,18 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
     <div class="w3-row w3-padding-64">
     <div class="w3-twothird w3-container">
       <h2 class="w3-text-teal"id ="Info">Introduction</h2>
-      <p>Populering
+      <p>Automation scripts
     </div>
 
   <div class="w3-row">
     <div class="w3-twothird w3-container">
-      <h2 class="w3-text-teal" id ="What">What is population</h2>
+      <h2 class="w3-text-teal" id ="What">How to write Selenium Scripts</h2>
       <p>what it is</p>
     </div>
 
   <div class="w3-row w3-padding-64">
     <div class="w3-twothird w3-container">
-      <h2 class="w3-text-teal"id ="Populate">how to</h2>
+      <h2 class="w3-text-teal"id ="Populate">Do it yourself</h2>
       <p>How to .</p>
     </div>
     <!-- END MAIN -->

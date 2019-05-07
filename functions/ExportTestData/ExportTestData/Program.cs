@@ -73,7 +73,7 @@ namespace ExportTestData
                     driver.FindElement(By.Id("Etternavn")).SendKeys(lastName[i]);
                     driver.FindElement(By.Id("Mailadresse")).SendKeys(mail[i]);
                     driver.FindElement(By.Id("Passord")).SendKeys(password[i]);
-                    driver.FindElement(By.CssSelector("input:nth-child(5)")).Click();
+                    driver.FindElement(By.XPath("//div[5]/input")).Click();
                 }
             }
 
