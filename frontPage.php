@@ -16,8 +16,10 @@
 		height: 130px;
 		width: 100%;
 		background-color:white;
-		position:relative;
+		position:relative;	
+	
 	}
+
 	body
 	{
 		margin:0px;
@@ -25,13 +27,16 @@
 		font-size: 100%;
 		line-height:1.4;
 		padding-bottom:0;
+		position: relative;
 	}
 
 	body
 	{
 		background-image: url("Images/sogeti2.jpg");
 		background-repeat: no-repeat;
-		background-size:130%;
+		background-size: cover;
+		background-position: center;
+		background-attachment: fixed;
 	}
 	#imageContainer
 	{
@@ -59,6 +64,9 @@
 		float: left;
 		margin-left: 400px;
 		display: inline-block;
+		align-items: stretch;
+		display: flex;
+		justify-content: space-between;
 	}
 	.navbar a 
 	{
@@ -117,6 +125,7 @@
 		outline: none;
 		margin left: none;
 		box-shadow: 0px 8px 16px 0px;
+		overflow: auto;
 	}
 	.dropdown-content a 
 	{
@@ -154,7 +163,7 @@
 		</div>
 				<a href = "http://localhost:8080/projectbugs/functions/testManagement.php" class="dropbtn" class="dropdown">Test Data Management</a>
 				<div class="dropdown">
-			<button class = "dropbtn">Automation
+			<button class = "dropbtn"><a href = "http://localhost:8080/projectbugs/functions/automation.php">Automation</a>
 			<i class="fa fa-caret-down"></i>
 		</button>
 						<div class="dropdown-content">
