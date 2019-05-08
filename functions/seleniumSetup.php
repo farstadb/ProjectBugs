@@ -111,10 +111,13 @@ table, th, td {
           This chapter will guide you to how to setup visual Studio and C#.
         
         <br><br>Step 1: Download and install <a href = "https://dotnet.microsoft.com/download"target="_blank">.Net Core SDK</a>
+        <br><img src="../images/selenium1.png"height="40%" width="40%">
        
         <br><br>Step 2: Download and install <a href = "https://visualstudio.microsoft.com/"target="_blank">Visual Studio IDE</a>
+        <br><img src="../images/selenium2.png">
         
         <br><br>Step 3: During the installation, select .Net desktop development.
+        <br><img src="../images/selenium3.png" height="80%" width="80%">
 
         <br><br>Step 4: After the installation is complete, start the program and log in with your job email.
 
@@ -132,10 +135,12 @@ table, th, td {
        <br><br>Step 4: Open the Start menu, search for"env" and select "Edit the system environment variables".
        
        <br><br>Step 5: Click "Environment Variables".
+       <br><img src="../images/selenium4.png" height="80%" width="80%">
        
        <br><br>Step 6: Select "Path" under System variables and click "Edit...".
        
        <br><br>Step 7: Click "New" and add "C:\Windows".
+       <br><img src="../images/selenium5.png" height="80%" width="80%">
       
        <br><br>Step 8: The Drivers and all the prerequisites are now installed!</p>
       
@@ -149,23 +154,30 @@ table, th, td {
         
         <br><br>1. Start visual studio
         <br>2. Select File -> New -> Project...
+        <br><img src="../images/selenium6.png" height="80%" width="80%">
         <br>3. Select «Class Library (.Net Framework)» -> OK
+        <br><img src="../images/selenium7.png" height="80%" width="80%">
         <br>4. You have now created a new project, called ClassLibrary1
+        <br><img src="../images/selenium8.png" height="50%" width="50%">
 
         <br><br>Step 2: Add Selenium Webdriver and NUnit with NuGet Manager
         <br>PS! This need to be done for every new project
 
         <br><br>1. Select Tools -> NuGet Package Manager à Manage Nuget Packages for Solution…
-        <br>2. Click Browse, search for «NUnit», and install «NUnit»
+        <br><img src="../images/selenium9.png" height="80%" width="80%">
+        <br>2. Click Browse, search for «NUnit», and install 
+        <br><img src="../images/selenium10.png" height="80%" width="80%">
         <br>3. Search for «NUnitTest», and install «NUnit3TestAdapter»
         <br>4. Search for «Selenium» and install «Selenium.Webdriver»
         <br>5. Add following libraries in the code
+        <br><img src="../images/selenium11.png" height="50%" width="50%">
 
         <br><br>Step 3: Go to Test Explorer window
 
         <br><br>1. Test Explorer window is used to run the tests
         <br>2. Navigate to: Test -> Windows -> Test Exporer or use shortcut: Ctrl+E, T
         <br>3. You will see a Text Explorer window on left side:
+        <br><img src="../images/selenium12.png" height="50%" width="50%">
         <br>4. You can run the test scripts from this window now
 
          <br><br>Step 4: Selenium is now ready and you can write your automated tests!
