@@ -113,8 +113,8 @@ table, th, td {
         <br><br>Step 1: Download and install <a href = "https://dotnet.microsoft.com/download"target="_blank">.Net Core SDK</a>
         <br><img src="../images/selenium1.png"height="40%" width="40%">
        
-        <br><br>Step 2: Download and install <a href = "https://visualstudio.microsoft.com/"target="_blank">Visual Studio IDE</a>
-        <br><img src="../images/selenium2.png">
+        <br><br>Step 2: Download and install <a href = "https://www.kunal-chowdhury.com/p/download-visual-studio-2017.html"target="_blank">Visual Studio Community 2017</a>
+        <br><img src="../images/selenium2.png"height="80%" width="80%">
         
         <br><br>Step 3: During the installation, select .Net desktop development.
         <br><img src="../images/selenium3.png" height="80%" width="80%">
@@ -177,7 +177,7 @@ table, th, td {
         <br><br>1. Test Explorer window is used to run the tests
         <br>2. Navigate to: Test -> Windows -> Test Exporer or use shortcut: Ctrl+E, T
         <br>3. You will see a Text Explorer window on left side:
-        <br><img src="../images/selenium12.png" height="50%" width="50%">
+        <br><img src="../images/selenium12.png" height="30%" width="30%">
         <br>4. You can run the test scripts from this window now
 
          <br><br>Step 4: Selenium is now ready and you can write your automated tests!
@@ -240,8 +240,8 @@ table, th, td {
             <br>public void test()
             <br>{
             <br>driver.Url = "http://www.google.no/";
-            <br>driver.FindElement(By.Name("q")).SendKeys("Ant");
-            <br>driver.FindElement(By.Name("q")).SendKeys(Keys.Enter);
+            <font color="red"><br>driver.FindElement(By.Name("q")).SendKeys("Ant");
+            <br>driver.FindElement(By.Name("q")).SendKeys(Keys.Enter);</font>
             <br>}
                     </th> 
         <tr>
@@ -249,7 +249,7 @@ table, th, td {
 
            <br><br>Now, the test will navigate to Google, write the search word (maur) and search for it. You can also add test criteria.
 
-           <br><br>To test if the logo on the site is there, you can try following code:
+           <br><br>To test if the logo on the site is there, you can try the following code:
 
                    <table style="width:100%">
           <tr>
@@ -260,8 +260,8 @@ table, th, td {
             <br>driver.Url = "http://www.google.no/";
             <br>driver.FindElement(By.Name("q")).SendKeys("Ant");
             <br>driver.FindElement(By.Name("q")).SendKeys(Keys.Enter);
-            <br>bool logo = driver.FindElement(By.XPath("//img")).Displayed;
-            <br>Assert.IsTrue(logo);
+             <font color="red"><br>bool logo = driver.FindElement(By.XPath("//img")).Displayed;
+            <br>Assert.IsTrue(logo);</font>
             <br>}
                     </th> 
         <tr>
@@ -289,7 +289,29 @@ table, th, td {
       <div class="w3-row w3-padding-64">
     <div class="w3-twothird w3-container">
       <h2 class="w3-text-teal"id ="Assignment">Assignment</h2>
-      <p>How to .</p>
+      <p>
+
+        Write two selenium tests.<br><br>
+
+        The first test performs the following tasks:<br><br>
+        · Navigates to the <a href = "http://localhost:8080/projectbugs/index.php">Project Bugs Webpage.</a><br>
+        · Searches for the following bugs in subsequent order: Maur, Bille, Flue.<br>
+        · Verifies that the bugs that were searched for appears as a result.<br><br>
+        <img src="../images/Selenium15.png" height="80%" width="80%"><br><br>
+
+        The second test performs the following tasks:<br><br>
+        · Navigates to the <a href = "http://localhost:8080/projectbugs/index.php">Project Bugs Webpage</a>, before pressing the "Opprett bruker" button, which navigates the test to the <a href = "http://localhost:8080/projectbugs/functions/nyBrukerForm.php">user registration page.</a> <br>
+        · Fills in the Fornavn, Etternavn, Mail-adresse and Passord fields.<br>
+        <img src="../images/Selenium13.png" height="40%" width="40%"><br>
+        · Presses the submit button.<br>
+        · Verifies that the "Records added successfully" text appears afterwards.<br>
+        <img src="../images/Selenium14.png" height="40%" width="40%"><br><br>
+
+        Run the two tests.<br><br>
+
+        Once these two tests are completed and run, you have succesfully completed the assignment. 
+
+      </p>
     </div>
     <!-- END MAIN -->
 </div>
