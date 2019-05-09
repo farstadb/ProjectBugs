@@ -46,9 +46,10 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
   <h4 class="w3-bar-item"><b>Menu</b></h4>
   <a class="w3-bar-item w3-button w3-hover-black" href="http://localhost:8080/projectbugs/functions/automation.php">Back to Automation</a>
 
-  <br></br>
-  <a class="w3-bar-item w3-button w3-hover-black" href="http://localhost:8080/projectbugs/functions/seleniumSetup.php">[Setting up Selenium]</a>
-  <a class="w3-bar-item w3-button w3-hover-black" href="http://localhost:8080/projectbugs/functions/seleniumScript.php">[Writing Selenium Scripts]</a>
+  <br><a class="w3-bar-item w3-button w3-hover-black" href="#Intro">Introduction</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="#testComplete">TestComplete</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="#Assignment">Assignment</a>
+
   <br></br><a class="w3-bar-item w3-button w3-hover-black" href="http://localhost:8080/projectbugs/index.php"target="_blank">Go to test site</a>
 </nav>
 
@@ -60,26 +61,26 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
   <div class="w3-row w3-padding-64">
     <div class="w3-twothird w3-container">
       <br></br>
-      <h1 class="w3-text-teal"id ="Headline">Automation</h1>
+      <h1 class="w3-text-teal"id ="Headline">TestComplete</h1>
       <p>
       </p>
     </div>
 
     <div class="w3-row w3-padding-64">
     <div class="w3-twothird w3-container">
-      <h2 class="w3-text-teal"id ="Info">Introduction</h2>
-      <p>Automation scripts
+      <h2 class="w3-text-teal"id ="Intro">Introduction</h2>
+      <p>TestComplete 
     </div>
 
   <div class="w3-row">
     <div class="w3-twothird w3-container">
-      <h2 class="w3-text-teal" id ="What">How to write Selenium Scripts</h2>
+      <h2 class="w3-text-teal" id ="testComplete">TestComplete</h2>
       <p>what it is</p>
     </div>
 
   <div class="w3-row w3-padding-64">
     <div class="w3-twothird w3-container">
-      <h2 class="w3-text-teal"id ="Populate">Do it yourself</h2>
+      <h2 class="w3-text-teal"id ="Assignment">Assignment</h2>
       <p>How to .</p>
     </div>
     <!-- END MAIN -->

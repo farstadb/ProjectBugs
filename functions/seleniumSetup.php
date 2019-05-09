@@ -312,6 +312,7 @@ table, th, td {
         Once these two tests are completed and run, you have succesfully completed the assignment. 
 
       </p>
+      <p><a href="#top">Top</a></p>
     </div>
     <!-- END MAIN -->
 </div>

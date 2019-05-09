@@ -268,7 +268,7 @@ table, th, td {
 
         The assignment is as follows:<br><br>
 
-        Rework the application, so that instead of extracting information about animal names, it extracts the information from the test data generated in Assignment 1, and uses it against the user registration page <a href = "seleniumSetup.php"target="_blank">here</a>, to mass populate it.<br><br>
+        Rework the application, so that instead of extracting information about animal names, it extracts the information from the test data generated in Assignment 1, and uses it against the user registration page <a href = "http://localhost:8080/projectbugs/functions/nyBrukerForm.php"target="_blank">here</a>, to mass populate it.<br><br>
 
         All of the functions are already in place, but need to be reworked for their new purpose. Once this is completed, the application will enter the test data into the register page, with the site then storing the information in the users database. Thus you will have a fully functioning data population tool that can both extract information from excel files and use it to mass populate the Project Bugs database!
       </p>
