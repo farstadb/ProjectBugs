@@ -62,7 +62,7 @@ table, th, td {
   <a class="w3-bar-item w3-button w3-hover-black" href="#Assignment">Assignment</a>
 
 
-  <br></br><a class="w3-bar-item w3-button w3-hover-black" href="http://localhost:8080/projectbugs/index.php"target="_blank">Go to test site</a>
+  <br></br><a class="w3-bar-item w3-button w3-hover-black" href="http://localhost:8080/projectbugs/index.php"target="_blank">Go to test site</a><br><br>
 </nav>
 
 <!-- Overlay effect when opening sidebar on small screens -->
@@ -311,8 +311,8 @@ table, th, td {
 
         Once these two tests are completed and run, you have succesfully completed the assignment. 
 
-      </p>
-      <p><a href="#top">Top</a></p>
+      </p><br>
+          <p><a href="#top">Go back to the top</a></p>
     </div>
     <!-- END MAIN -->
 </div>

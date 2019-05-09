@@ -53,7 +53,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
   <a class="w3-bar-item w3-button w3-hover-black" span style="margin-left:2em" href="#What">How to do it</a>
   <a class="w3-bar-item w3-button w3-hover-black" span style="margin-left:2em" href="#Assignment1">Assignment 1</a> <br>
   <a class="w3-bar-item w3-button w3-hover-black" href="http://localhost:8080/projectbugs/functions/populatingLink.php">Test-Population</a>
-  <br></br><a class="w3-bar-item w3-button w3-hover-black" href="http://localhost:8080/projectbugs/index.php"target="_blank">Go to test site</a>
+  <br><a class="w3-bar-item w3-button w3-hover-black" href="http://localhost:8080/projectbugs/index.php"target="_blank">Go to test site</a>
 </nav>
 
 <!-- Overlay effect when opening sidebar on small screens -->
@@ -103,8 +103,23 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
     <div class="w3-row w3-padding-64">
     <div class="w3-twothird w3-container">
       <h2 class="w3-text-teal"id ="Assignment1">Assignment 1: Generate Test Data</h2>
-      <p>Generate Test Data by using the following website.</p>
-        	<p><a href="#top">Top</a></p>
+      <p>
+        Now that you have learned how to generate test data from a website, it is time to use it to generate data. This data will later be used to populate a database in Project Bugs.  <br><br>
+
+        The assignment is as follows:<br><br>
+
+        Generate Test Data by using the following website: <a href = "http://mockaroo.com/" target="_blank" >https://mockaroo.com/.</a><br>
+      <br>
+      Try to generate Test Data which includes:
+      <br> - Firstname 
+      <br> - Lastname
+      <br> - Email
+      <br> - Gender
+      <br> - Phonenumber
+      <br> - Password. <br>
+      <br> Generate 500 rows, and save it in Excel-format. Save this for use later in assignment 2 - Test-Population.
+      </p><br>
+        	<p><a href="#top">Go back to the top</a></p>
     </div>
     <!-- END MAIN -->
 </div>

@@ -51,13 +51,13 @@ table, th, td {
   <a class="w3-bar-item w3-button w3-hover-black" href="http://localhost:8080/projectbugs/functions/testManagement.php">Back to Test Data Management</a>
 
   <br></br>
-  <a class="w3-bar-item w3-button w3-hover-black" href="http://localhost:8080/projectbugs/functions/generatingLink.php">Test-Generation</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="http://localhost:8080/projectbugs/functions/generatingLink.php">Test-Generation</a><br>
   <a class="w3-bar-item w3-button w3-hover-black" href="http://localhost:8080/projectbugs/functions/populatingLink.php">Test-Population</a>
   <a class="w3-bar-item w3-button w3-hover-black" span style="margin-left:2em" href="#top">Introduction</a>
   <a class="w3-bar-item w3-button w3-hover-black" span style="margin-left:2em" href="#Info">What is population</a>
   <a class="w3-bar-item w3-button w3-hover-black" span style="margin-left:2em" href="#What">How to do it</a>
-  <a class="w3-bar-item w3-button w3-hover-black" span style="margin-left:2em" href="#Assignment2">Assignment 2</a> <br>
-  <br></br><a class="w3-bar-item w3-button w3-hover-black" href="http://localhost:8080/projectbugs/index.php"target="_blank">Go to test site</a>
+  <a class="w3-bar-item w3-button w3-hover-black" span style="margin-left:2em" href="#Assignment2">Assignment 2</a>
+  <br><a class="w3-bar-item w3-button w3-hover-black" href="http://localhost:8080/projectbugs/index.php"target="_blank">Go to test site</a>
 </nav>
 
 <!-- Overlay effect when opening sidebar on small screens -->
@@ -272,7 +272,8 @@ table, th, td {
 
         All of the functions are already in place, but need to be reworked for their new purpose. Once this is completed, the application will enter the test data into the register page, with the site then storing the information in the users database. Thus you will have a fully functioning data population tool that can both extract information from excel files and use it to mass populate the Project Bugs database!
       </p>
-      <p><a href="#top">Top</a></p>
+      <br>
+          <p><a href="#top">Go back to the top</a></p>
     </div>
 
     <!-- END MAIN -->
