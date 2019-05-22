@@ -183,18 +183,6 @@
 						</div>
 			</div>
 			<div class="dropdown">
-					<button class = "dropbtn">Performance
-						<i class="fa fa-caret-down"></i>
-					</button>
-						<div class="dropdown-content">
-						<a href = "http://localhost:8080/projectbugs/functions/performance.php"> About Performance testing </a>
-						<a href = "http://localhost:8080/projectbugs/functions/neoload.php"> NeoLoad </a>
-						<a href = "http://localhost:8080/projectbugs/functions/jmeter.php"> JMeter </a>						
-						<a href = "http://localhost:8080/projectbugs/functions/uiPath.php"> .... </a>
-						<a href = "Test arena/TestArena.html"> Link1 </a>
-						</div>
-			</div>
-			<div class="dropdown">
 					<button class = "dropbtn">Certification
 						<i class="fa fa-caret-down"></i>
 					</button>
