@@ -201,6 +201,12 @@ table, th, td {
 
 <h5 class="w3-text-teal"id ="Prerequisite">2. The Runtime Overview tab</h5>
 
+<li>This panel monitors the test sequence. It provides immediate statistics such as hits/sec., average response time and errors.
+<li>The test may be stopped at any time by clicking on the "Stop" button.</li>
+<br><img src="../images/performance/neo11.jpg" height="40%" width="40%">
+
+
+
        <br><br>Step 1: Download the <a href = "https://www.seleniumhq.org/download/"target="_blank">Internet Explorer</a>, <a href = "https://github.com/mozilla/geckodriver/releases"target="_blank">Firefox</a> and <a href = "http://chromedriver.chromium.org/downloads"target="_blank">Chrome</a> drivers.
        
        <br><br>Step 2: Unzip the downloaded files.
