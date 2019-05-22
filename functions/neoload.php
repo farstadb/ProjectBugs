@@ -54,11 +54,12 @@ table, th, td {
   <br><a class="w3-bar-item w3-button w3-hover-black" href="#Intro">Introduction</a>
   <a class="w3-bar-item w3-button w3-hover-black" href="#IDE">Basic Neolaod Load Testing Terminologies</a>
   <a class="w3-bar-item w3-button w3-hover-black" href="#Webdriver">Neoload testing process</a>
-  <a class="w3-bar-item w3-button w3-hover-black" href="#Prerequisite">Softsmith Neoload Testing Services</a>
-  <a class="w3-bar-item w3-button w3-hover-black" href="#Visual">Visual Studio and C#</a>
-  <a class="w3-bar-item w3-button w3-hover-black" href="#Driver">Drivers</a>
-  <a class="w3-bar-item w3-button w3-hover-black" href="#InstallWeb">Installing WebDriver</a>
-  <a class="w3-bar-item w3-button w3-hover-black" href="#RunningTest">Running your first automated selenium test</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="#Prerequisite">Sogeti Neoload Testing Services</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="#Quickstart">Quick Start</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="#Recording">Recording the Test Scenario</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="#Running">Running the Test</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="#TestResults">Test Results</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="#Communication">Communication methodology</a>
   <a class="w3-bar-item w3-button w3-hover-black" href="#Assignment">Assignment</a>
 
 
@@ -109,15 +110,15 @@ table, th, td {
 
 
       </p>
-      <h4 class="w3-text-teal"id ="Prerequisite">Softsmith Neoload Testing Services</h4>
-      <p><li>Softsmith has a 1000 vuser license. This means we can test the application upto 1000 concurrent users.
+      <h4 class="w3-text-teal"id ="Prerequisite">Sogeti Neoload Testing Services</h4>
+      <p><li>Sogeti has a 1000 vuser license. This means we can test the application upto 1000 concurrent users.
 <li>If you wish to avail our service, you can provide the basic details of you application and application url.
 <li>They conduct and free 100 user test for one hour and provide you the report.
 <li>If you are satisfies and wish to avail our service we provide a time and money estimation.
-<li>For further details please contact our sales team at sales@softsmith.com.</li>
+<li>For further details please contact our sales team at sales@sogeti.com.</li>
 
       </p>
-      <h4 class="w3-text-teal"id ="Visual">Quick Start ………</h4>
+      <h4 class="w3-text-teal"id ="Quickstart">Quick Start ………</h4>
         <p>
           Our Test will undergo following phases:
       
@@ -125,7 +126,7 @@ table, th, td {
          <br>Step 2: Running the test. 
         <br>Step 3: Test Results.
       </p>
-      <h4 class="w3-text-teal"id ="Driver">Recording the Test Scenario</h4>
+      <h4 class="w3-text-teal"id ="Recording">Recording the Test Scenario</h4>
       <p>1. Starting the recording:
          Click on the "Start recording" button on the controller to start recording the scenario.
          <br><img src="../images/performance/neo1.jpg" height="40%" width="40%">
@@ -185,9 +186,11 @@ table, th, td {
 <li>Click on the "Populations" tab. A pop-up wizard prompts you to create a population for the test.
 <li>A population is a group of virtual users. In this example, the population only contains the previously recorded virtual user.</li>
 <br><img src="../images/performance/neo8.jpg" height="40%" width="40%">
-       
-<h3 class="w3-text-teal"id ="Prerequisite">Running the Test</h3>
-<h5 class="w3-text-teal"id ="Prerequisite">1. The Scenarios tab</h5>
+ 
+
+
+<h3 class="w3-text-teal"id ="Running">Running the Test</h3>
+<h5>1. The Scenarios tab</h5>
 
 
       <p><li>Click on the "Runtime" button, then on the "Scenarios" tab.</p>
@@ -207,165 +210,51 @@ table, th, td {
 
 
 
-       <br><br>Step 1: Download the <a href = "https://www.seleniumhq.org/download/"target="_blank">Internet Explorer</a>, <a href = "https://github.com/mozilla/geckodriver/releases"target="_blank">Firefox</a> and <a href = "http://chromedriver.chromium.org/downloads"target="_blank">Chrome</a> drivers.
-       
-       <br><br>Step 2: Unzip the downloaded files.
-       
-       <br><br>Step 3: Move IEDriverServer.exe, geckodriver.exe and chromedriver.exe to C:\Windows
-       
-       <br><br>Step 4: Open the Start menu, search for"env" and select "Edit the system environment variables".
-       
-       <br><br>Step 5: Click "Environment Variables".
-       <br><img src="../images/selenium4.png" height="80%" width="80%">
-       
-       <br><br>Step 6: Select "Path" under System variables and click "Edit...".
-       
-       <br><br>Step 7: Click "New" and add "C:\Windows".
-       <br><img src="../images/selenium5.png" height="80%" width="80%">
-      
-       <br><br>Step 8: The Drivers and all the prerequisites are now installed!</p>
-      
-      <h3 class="w3-text-teal"id ="InstallWeb">Installing WebDriver</h3>
-      <p>
-        The development environment and the drivers are now installed. Next step is to set up Selenium. It can be done from Visual Studio.
+             
+      <h3 class="w3-text-teal"id ="TestResults">Test Results</h3>
+      <h4>1. The Test Summary tab</h4>
+      <li>
+        The test summary provides general statistics for the test, including total test duration, throughput, total number of hits, number of errors and average response time, together with important information such as slowest pages, pages with the highest error rates etc.</li>
+        <br><img src="../images/performance/neo12.jpg" height="40%" width="40%">
+<h4>2. The Values tab</h4>
+      <li>This tab allows you to</li>
+      <ol>
+  <li>Quickly plot all the graph curves for a web page, HTTP request, a monitor or an indicator.
+<li>Sort the request and web page statistics.
+<li>Use "Filters" to filter the displayed results by load generator, population or virtual user.
+<li>Use the "Type" drop-down list to switch between Web Pages, HTTP Requests, Performance counters and Indicators.</li>
+</ol>
+<br><img src="../images/performance/neo13.jpg" height="40%" width="40%">
+<h4>3. The Graphs tab</h4>
 
-        <br><br>PS! The screenshots are from a dark theme, standard theme may have othe background color than black.
+<li>The "Graphs" tab can be used to plot a graph curve for any statistic in any request. Simply select
+<li>the required statistic among average response time, hits/sec., error rate etc., then drag and drop a Web
+<li>Page, a HTTP request or a Performance counter into the graph pane to the right.
+<li>You may also plot a curve for a previous test by selecting that test in the Results drop-down list
+<li>or compare two tests by selecting "Compare..." .
+</li>
+<br><img src="../images/performance/neo14.jpg" height="40%" width="40%">
 
-        <br><br>Step 1: Create a new project
+<h4>4. The Errors tab</h4>
+<li>This tab displays detailed information on request errors encountered during the test. It itemizes
+<li>the requests sent to the server, the server's response and the results of the assertions checking its
+v<li>alidity. To help pinpoint the source of the error, you may access the request that precedes the request
+<li>containing the error from this tab.
+</li>
+
+<br><img src="../images/performance/neo15.jpg" height="40%" width="40%">
+
         
-        <br><br>1. Start visual studio
-        <br>2. Select File -> New -> Project...
-        <br><img src="../images/selenium6.png" height="80%" width="80%">
-        <br>3. Select «Class Library (.Net Framework)» -> OK
-        <br><img src="../images/selenium7.png" height="80%" width="80%">
-        <br>4. You have now created a new project, called ClassLibrary1
-        <br><img src="../images/selenium8.png" height="50%" width="50%">
-
-        <br><br>Step 2: Add Selenium Webdriver and NUnit with NuGet Manager
-        <br>PS! This need to be done for every new project
-
-        <br><br>1. Select Tools -> NuGet Package Manager à Manage Nuget Packages for Solution…
-        <br><img src="../images/selenium9.png" height="80%" width="80%">
-        <br>2. Click Browse, search for «NUnit», and install 
-        <br><img src="../images/selenium10.png" height="80%" width="80%">
-        <br>3. Search for «NUnitTest», and install «NUnit3TestAdapter»
-        <br>4. Search for «Selenium» and install «Selenium.Webdriver»
-        <br>5. Add following libraries in the code
-        <br><img src="../images/selenium11.png" height="50%" width="50%">
-
-        <br><br>Step 3: Go to Test Explorer window
-
-        <br><br>1. Test Explorer window is used to run the tests
-        <br>2. Navigate to: Test -> Windows -> Test Exporer or use shortcut: Ctrl+E, T
-        <br>3. You will see a Text Explorer window on left side:
-        <br><img src="../images/selenium12.png" height="30%" width="30%">
-        <br>4. You can run the test scripts from this window now
-
-         <br><br>Step 4: Selenium is now ready and you can write your automated tests!
-      </p>
-      <h3 class="w3-text-teal"id ="RunningTest">Running your first automated selenium test</h3>
+      <h3 class="w3-text-teal"id ="Communication">Communication methodology</h3>
       <p>
-        As the software and the drivers are installed, and the test window is opened, now you can start writing your tests.
-
-        <br><br>Here is a simple example. Write the following code:
-        <table style="width:100%">
-          <tr>
-            <th>
-        class Program
-        <br>{
-        <br>IWebDriver driver;
-        <br><br>[SetUp]
-        <br>public void startBrowser()
-        <br>{
-        <br>driver = new ChromeDriver();
-        <br>}
-        <br><br>[Test]
-        <br>public void test()
-        <br>{
-        <br>driver.Url = "http://www.google.no/";
-        <br>}
-        <br><br>[TearDown]
-        <br>public void closeBrowser()
-        <br>{
-        <br>driver.Close();
-        <br>}
-        <br>} 
-        <br>} 
-        </th> 
-        <tr>
-           </table>
-        <br><br>After this you will see that your test is shown in the Test Explorer window. Run the test, and following should happen:
-        <br><br>- Chrome window opens, navigates to Google and it closes.
-
-        <table style="width:100%">
-          <tr>
-           <th>[SetUp]</th>
-           <th>Setup and starting the test</th> 
-          </tr>
-          <tr>
-            <th>[Test]</th>
-            <th>Implements the test. All the test should be written here.</th> 
-          </tr>
-          <tr>
-            <th>[TearDown]</th>
-            <th>Closing the test</th> 
-            </tr>
-            </table>
-
-            <br><br>To search a specific word, try to add the following code:
-       
-        <table style="width:100%">
-          <tr>
-            <th>
-            [Test]
-            <br>public void test()
-            <br>{
-            <br>driver.Url = "http://www.google.no/";
-            <font color="red"><br>driver.FindElement(By.Name("q")).SendKeys("Ant");
-            <br>driver.FindElement(By.Name("q")).SendKeys(Keys.Enter);</font>
-            <br>}
-                    </th> 
-        <tr>
-           </table>
-
-           <br><br>Now, the test will navigate to Google, write the search word (maur) and search for it. You can also add test criteria.
-
-           <br><br>To test if the logo on the site is there, you can try the following code:
-
-                   <table style="width:100%">
-          <tr>
-            <th>
-            [Test]
-            <br>public void test()
-            <br>{
-            <br>driver.Url = "http://www.google.no/";
-            <br>driver.FindElement(By.Name("q")).SendKeys("Ant");
-            <br>driver.FindElement(By.Name("q")).SendKeys(Keys.Enter);
-             <font color="red"><br>bool logo = driver.FindElement(By.XPath("//img")).Displayed;
-            <br>Assert.IsTrue(logo);</font>
-            <br>}
-                    </th> 
-        <tr>
-           </table>
-
-           <br><br>This test will check if the logo exists on the website. It will fail if the logo is not there. Assert is used to check whether a test is true or not. It will stop testing if the criteria are not met.
-
-                   <table style="width:100%">
-          <tr>
-           <th>FindElement(By. )</th>
-           <th>Finds elements with different keywords as «Name», «ClassName» and «XPath»</th> 
-          </tr>
-          <tr>
-            <th>Assert.IsTrue</th>
-            <th>Verifies if something is true, and fails the test if not.</th> 
-          </tr>
-            </table>
-
-            <br><br>To learn more about how to write tests in Selenium, check the following webpages:
-            <br><br><a href = "https://www.toolsqa.com/selenium-webdriver/c-sharp/how-to-write-selenium-test-using-nunit-framework/"target="_blank">ToolsQA</a> and <a href = "https://www.guru99.com/selenium-csharp-tutorial.html"target="_blank">guru99</a>
+       <li>Neoload uses agent less communication between client and server.
+<li>It is based on the Push technology.
+<li>Push technology is a type of communication where information is "pushed" by the server to the browser, contrary to the normal "pull" principle whereby the browser initiates the request for information. 
+<li>There are several Push methods: polling, long polling or streaming.
+</li>
           
       </p>
-    </div>
+    
 
       <div class="w3-row w3-padding-64">
     <div class="w3-twothird w3-container">
