@@ -83,7 +83,38 @@ table, th, td {
     <div class="w3-twothird w3-container">
       <h2 class="w3-text-teal"id ="Intro">Introduction</h2>
       <p>Neoload is a low-priced high-efficiency load and stress testing tool that is used to measure the performance of web and mobile applications.
-        <br><br>Neoload simulates traffic through virtual users to determine the application performance under load and analyze the transaction response times and pinpoint the number of the simultaneous users which the internet, intranet or the mobile application can handle.</p>
+        <br><br>Neoload simulates traffic through virtual users to determine the application performance under load and analyze the transaction response times and pinpoint the number of the simultaneous users which the internet, intranet or the mobile application can handle.
+<br><img src="../images/performance/neo1a.jpg" height="80%" width="80%">
+  <li>A load testing tool by Neotys.
+<li>Tool that measures performance and behaviour of the system under load.
+<li>Used for testing web applications, Web services, flex applications Oracle forms and Silverlight applications.
+<li>Uses Java Script for script enhancements.</li>
+<h4> 4 Main Components of Load Testing Tools </h4> </p>
+
+<ol>
+  <li>Scripting Component
+
+<ul>
+      <li> Used to Create a Script which mimics a single user activity on the application. The Script is called Vuser Script.
+        </li>
+    </ul>
+
+<li>Load test Execution Component
+
+<ul>
+      <li>Execute the script as several users.
+        </li>
+    </ul>
+<li>Analysis
+
+<ul>
+      <li>Analyzing various performance counters.
+        </li>
+    </ul>
+<li>Monitoring (Web Server, Database Server, Networks…).
+
+
+     
     </div>
 
   <div class="w3-row">
