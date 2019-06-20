@@ -166,11 +166,16 @@
 			<button class = "dropbtn"><a href = "http://localhost:8080/projectbugs/functions/automation.php">Automation</a>
 			<i class="fa fa-caret-down"></i>
 		</button>
+						<!--To open the pages in new tabs: add target="_blank". -->
 						<div class="dropdown-content">
-						<a href = "http://localhost:8080/projectbugs/functions/automation.php" class="dropbtn"> About Automation </a>
-						<a href = "http://localhost:8080/projectbugs/functions/seleniumSetup.php"> Selenium </a>
-						<a href = "http://localhost:8080/projectbugs/functions/uiPath.php"> UiPath </a>
-						<a href = "http://localhost:8080/projectbugs/functions/testComplete.php"> TestComplete </a>
+						<a href = "http://localhost:8080/projectbugs/functions/automation.php" class="dropbtn"target="_blank"> About Automation </a>
+						<!-- About Automation popup, new tab (using target="_blank") -->
+						<a href = "http://localhost:8080/projectbugs/functions/seleniumSetup.php"target="_blank"> Selenium </a>
+						<!-- Selenium popup, new tab (using target="_blank") -->
+						<a href = "http://localhost:8080/projectbugs/functions/uiPath.php"target="_blank"> UiPath </a>
+						<!-- UiPath popup, new tab (using target="_blank") -->
+						<a href = "http://localhost:8080/projectbugs/functions/testComplete.php"target="_blank"> TestComplete </a>
+						<!-- TestComplete popup, new tab (using target="_blank") -->
 					</div>
 			</div>
 			<div class="dropdown">
