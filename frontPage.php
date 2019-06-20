@@ -153,13 +153,6 @@
 		</div>
 			<div class="navbar">
 			<div class="dropdown">
-					<button class = "dropbtn">Introduction
-						<i class="fa fa-caret-down"></i>
-					</button>
-			<div class="dropdown-content">
-				<a href = "Test arena/TestArena.html"> Welcome </a>
-				<a href = "Test arena/TestArena.html"> Test Arena </a>			<a href = "Test arena/TestArena.html"> News </a>
-			</div>
 		</div>
 				<a href = "http://localhost:8080/projectbugs/functions/testManagement.php" class="dropbtn" class="dropdown">Test Data Management</a>
 				<div class="dropdown">
@@ -183,8 +176,8 @@
 						<i class="fa fa-caret-down"></i>
 					</button>
 						<div class="dropdown-content">
-						<a href = "Test arena/TestArena.html"> Method </a>
-						<a href = "Test arena/TestArena.html"> Bla bla bla </a>	<a href = "Test arena/TestArena.html"> Link1 </a>
+						<a href = "http://localhost:8080/projectbugs/functions/notFinished.php"target="_blank"> Method </a>
+						<a href = "http://localhost:8080/projectbugs/functions/notFinished.php"target="_blank"> Cyber Security </a>
 						</div>
 			</div>
 			<div class="dropdown">
@@ -196,7 +189,7 @@
 						<a href = "http://localhost:8080/projectbugs/functions/neoload.php"> NeoLoad </a>
 						<a href = "http://localhost:8080/projectbugs/functions/jmeter.php"> JMeter </a>						
 						<a href = "http://localhost:8080/projectbugs/functions/uiPath.php"> .... </a>
-						<a href = "Test arena/TestArena.html"> Link1 </a>
+						<a href = "http://localhost:8080/projectbugs/functions/notFinished.php"target="_blank"> Link 1 </a>
 						</div>
 			</div>
 			<div class="dropdown">
@@ -204,8 +197,7 @@
 						<i class="fa fa-caret-down"></i>
 					</button>
 					<div class="dropdown-content">
-						<a href = "Test arena/TestArena.html"> About us </a>
-						<a href = "Test arena/TestArena.html"> Bla bla bla </a>	<a href = "Test arena/TestArena.html"> Nyhet </a>
+						<a href = "http://localhost:8080/projectbugs/functions/notFinished.php"target="_blank"> About us </a>
 					</div>
 			</div>
 		</div>
