@@ -202,8 +202,12 @@
 			</div>
 		</div>
 	</div>
-	<h1> Welcome to Training Arena!</h1>
-	<p> Find bugs, learn test automation and more </p> <br></br>
-	<a href = "http://localhost:8080/projectbugs/index.php" target="_blank" style="color:black"> <h3>Go to the test site!</h3> </a>
+
+	<h1> <ul> Welcome to Training Arena!</h1>
+	<ul> Find bugs, learn test automation, testing tools and more.
+	<p> Contact your manager to get information about which documents to read </p>
+	<p>in order to start the learning process.  </li></p>
+<!--Should we remove this??
+	<a href = "http://localhost:8080/projectbugs/index.php" target="_blank" style="color:black"> <h3>Go to the test site!</h3> </a>-->
 </body>
 </html>
