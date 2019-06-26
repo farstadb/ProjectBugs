@@ -55,7 +55,7 @@ table, th, td {
   <a class="w3-bar-item w3-button w3-hover-black" href="#Intro">What is Selenium?</a>
   <a class="w3-bar-item w3-button w3-hover-black" href="#Prerequisite">Prerequisites</a>
   <a class="w3-bar-item w3-button w3-hover-black" href="#RunningTest">How to run your first selenium test</a>
-  <a class="w3-bar-item w3-button w3-hover-black" href="#Assignment">Excercise</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="#Assignment">Exercise</a>
   <a class="w3-bar-item w3-button w3-hover-black" href="#help">Help!</a>
 
 
