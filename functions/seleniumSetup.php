@@ -20,6 +20,7 @@
 </script>
 
 <style>
+
 html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
 .w3-sidebar {
   z-index: 3;
@@ -34,7 +35,6 @@ table, th, td {
   text-align: left;
 }
 </style>
-<body>
 
   <div class ="container">
   <header>
@@ -51,11 +51,11 @@ table, th, td {
 
   <a class="w3-bar-item w3-button w3-hover-black" href="http://localhost:8080/projectbugs/functions/automation.php">Back to Test Automation</a>
 
-  <br>  <a class="w3-bar-item w3-button w3-hover-black" href="#skill">Technical skill level</a>
-  <a class="w3-bar-item w3-button w3-hover-black" href="#Intro">What is Selenium?</a>
-  <a class="w3-bar-item w3-button w3-hover-black" href="#Prerequisite">Prerequisites</a>
-  <a class="w3-bar-item w3-button w3-hover-black" href="#RunningTest">How to run your first selenium test</a>
-  <a class="w3-bar-item w3-button w3-hover-black" href="#Assignment">Exercise</a>
+  <br>  <a class="w3-bar-item w3-button w3-hover-black" href="#top">Technical skill level</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="#skill">What is Selenium?</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="#prerequisites">Prerequisites</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="#Run">How to run your first selenium test</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="#Exercise">Exercise</a>
   <a class="w3-bar-item w3-button w3-hover-black" href="#help">Help!</a>
 
 
@@ -92,7 +92,7 @@ table, th, td {
         <br><br>You can install Selenium IDE <a href = "https://www.seleniumhq.org/selenium-ide/"target="_blank">here.</a> </br>
       </p>
             <h4 class="w3-text-teal"id ="Webdriver">Selenium Webdriver</h4>
-      <p>Selenium Webdriver is a web automation framework that allows you to write test scripts in different programming languages, like C#, Java and Python. Through the use of the Webdriver you are able to create automated test suites that can be used for regression testing.
+      <p id ="prerequisites">Selenium Webdriver is a web automation framework that allows you to write test scripts in different programming languages, like C#, Java and Python. Through the use of the Webdriver you are able to create automated test suites that can be used for regression testing.
       </p>
         In this tutorial you will learn how to set up Selenium Webdriver, and how to write and run a Selenium Webdriver test using C#.</p>
     </div>
@@ -176,7 +176,7 @@ table, th, td {
         <br><br>1. Test Explorer window is used to run the tests
         <br>2. Navigate to: Test -> Windows -> Test Exporer or use shortcut: Ctrl+E, T
         <br>3. You will see a Text Explorer window on left side:
-        <br><img src="../images/selenium12.png" height="30%" width="30%">
+        <br><img src="../images/selenium12.png" height="30%" width="30%" id = "Run">
         <br>4. You can run the test scripts from this window now
 
          <br><br>Step 4: Selenium is now ready and you can write your automated tests!
@@ -277,7 +277,7 @@ table, th, td {
             <th>Assert.IsTrue</th>
             <th>Verifies if something is true, and fails the test if not.</th> 
           </tr>
-            </table>
+            </table><p id ="Exercise">
 
             <br><br>To learn more about how to write tests in Selenium, check the following webpages:
             <br><br><a href = "https://www.toolsqa.com/selenium-webdriver/c-sharp/how-to-write-selenium-test-using-nunit-framework/"target="_blank">ToolsQA</a> and <a href = "https://www.guru99.com/selenium-csharp-tutorial.html"target="_blank">guru99</a>
