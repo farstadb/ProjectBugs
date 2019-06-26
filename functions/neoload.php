@@ -51,16 +51,12 @@ table, th, td {
 
   <a class="w3-bar-item w3-button w3-hover-black" href="http://localhost:8080/projectbugs/functions/performance.php">Back to Performance Test</a>
 
-  <br><a class="w3-bar-item w3-button w3-hover-black" href="#Intro">Introduction</a>
-  <a class="w3-bar-item w3-button w3-hover-black" href="#IDE">Basic Neolaod Load Testing Terminologies</a>
-  <a class="w3-bar-item w3-button w3-hover-black" href="#Webdriver">Neoload testing process</a>
-  <a class="w3-bar-item w3-button w3-hover-black" href="#Prerequisite">Sogeti Neoload Testing Services</a>
-  <a class="w3-bar-item w3-button w3-hover-black" href="#Quickstart">Quick Start</a>
-  <a class="w3-bar-item w3-button w3-hover-black" href="#Recording">Recording the Test Scenario</a>
-  <a class="w3-bar-item w3-button w3-hover-black" href="#Running">Running the Test</a>
-  <a class="w3-bar-item w3-button w3-hover-black" href="#TestResults">Test Results</a>
-  <a class="w3-bar-item w3-button w3-hover-black" href="#Communication">Communication methodology</a>
-  <a class="w3-bar-item w3-button w3-hover-black" href="#Assignment">Assignment</a>
+  <br><a class="w3-bar-item w3-button w3-hover-black" href="#Headline">NeoLoad</a>
+  <a class="w3-bar-item w3-button w3-hover-black" span style="margin-left:2em" href="#Skill">Technical skill level</a>
+  <a class="w3-bar-item w3-button w3-hover-black" span style="margin-left:2em" href="#Intro">What is NeoLoad?</a>
+  <a class="w3-bar-item w3-button w3-hover-black" span style="margin-left:2em" href="#Quickstart">How to do it yourself</a>
+  <a class="w3-bar-item w3-button w3-hover-black" span style="margin-left:2em" href="#Assignment">Exercise</a>
+  <a class="w3-bar-item w3-button w3-hover-black" span style="margin-left:2em" href="#Help">Help!</a>
 
 
   <br></br><a class="w3-bar-item w3-button w3-hover-black" href="http://localhost:8080/projectbugs/index.php"target="_blank">Go to test site</a><br><br>
@@ -75,13 +71,21 @@ table, th, td {
     <div class="w3-twothird w3-container">
       <br></br>
       <h1 class="w3-text-teal"id ="Headline">NeoLoad</h1>
-      <p>
+      <p><font color="red">This page is work in progress!</font>
       </p>
     </div>
 
-    <div class="w3-row w3-padding-64">
+  <div class="w3-row">
     <div class="w3-twothird w3-container">
-      <h2 class="w3-text-teal"id ="Intro">Introduction</h2>
+      <h3 class="w3-text-teal"id ="Skill">Technical skill level</h3>
+      <p>Beginner<br>
+        Estimated time: 5 hours
+      </p>
+    </div>
+
+  <div class="w3-row">
+    <div class="w3-twothird w3-container">
+      <h3 class="w3-text-teal"id ="Intro">What is NeoLoad?</h3>
       <p>Neoload is a low-priced high-efficiency load and stress testing tool that is used to measure the performance of web and mobile applications.
         <br><br>Neoload simulates traffic through virtual users to determine the application performance under load and analyze the transaction response times and pinpoint the number of the simultaneous users which the internet, intranet or the mobile application can handle.
 <br><img src="../images/performance/neo1a.jpg" height="80%" width="80%">
@@ -149,7 +153,7 @@ table, th, td {
 <li>For further details please contact our sales team at sales@sogeti.com.</li>
 
       </p>
-      <h4 class="w3-text-teal"id ="Quickstart">Quick Start ………</h4>
+      <h3 class="w3-text-teal"id ="Quickstart">How to do it yourself</h3>
         <p>
           Our Test will undergo following phases:
       
@@ -220,7 +224,7 @@ table, th, td {
  
 
 
-<h3 class="w3-text-teal"id ="Running">Running the Test</h3>
+<h4 class="w3-text-teal"id ="Running">Running the Test</h4>
 <h5>1. The Scenarios tab</h5>
 
 
@@ -242,7 +246,7 @@ table, th, td {
 
 
              
-      <h3 class="w3-text-teal"id ="TestResults">Test Results</h3>
+      <h4 class="w3-text-teal"id ="TestResults">Test Results</h4>
       <h4>1. The Test Summary tab</h4>
       <li>
         The test summary provides general statistics for the test, including total test duration, throughput, total number of hits, number of errors and average response time, together with important information such as slowest pages, pages with the highest error rates etc.</li>
@@ -276,7 +280,7 @@ v<li>alidity. To help pinpoint the source of the error, you may access the reque
 <br><img src="../images/performance/neo15.jpg" height="40%" width="40%">
 
         
-      <h3 class="w3-text-teal"id ="Communication">Communication methodology</h3>
+      <h4 class="w3-text-teal"id ="Communication">Communication methodology</h4>
       <p>
        <li>Neoload uses agent less communication between client and server.
 <li>It is based on the Push technology.
@@ -285,33 +289,21 @@ v<li>alidity. To help pinpoint the source of the error, you may access the reque
 </li>
           
       </p>
-    
+  </div> 
 
       <div class="w3-row w3-padding-64">
     <div class="w3-twothird w3-container">
-      <h2 class="w3-text-teal"id ="Assignment">Assignment</h2>
+      <h3 class="w3-text-teal"id ="Assignment">Exercise</h3>
       <p>
+       <font color="red">Work in progress!</font>
+      </p>
+    </div>
 
-        Write two selenium tests.<br><br>
-
-        The first test performs the following tasks:<br><br>
-        · Navigates to the <a href = "http://localhost:8080/projectbugs/index.php">Project Bugs Webpage.</a><br>
-        · Searches for the following bugs in subsequent order: Maur, Bille, Flue.<br>
-        · Verifies that the bugs that were searched for appears as a result.<br><br>
-        <img src="../images/Selenium15.png" height="80%" width="80%"><br><br>
-
-        The second test performs the following tasks:<br><br>
-        · Navigates to the <a href = "http://localhost:8080/projectbugs/index.php">Project Bugs Webpage</a>, before pressing the "Opprett bruker" button, which navigates the test to the <a href = "http://localhost:8080/projectbugs/functions/nyBrukerForm.php">user registration page.</a> <br>
-        · Fills in the Fornavn, Etternavn, Mail-adresse and Passord fields.<br>
-        <img src="../images/Selenium13.png" height="40%" width="40%"><br>
-        · Presses the submit button.<br>
-        · Verifies that the "Records added successfully" text appears afterwards.<br>
-        <img src="../images/Selenium14.png" height="40%" width="40%"><br><br>
-
-        Run the two tests.<br><br>
-
-        Once these two tests are completed and run, you have succesfully completed the assignment. 
-
+      <div class="w3-row w3-padding-64">
+    <div class="w3-twothird w3-container">
+      <h3 class="w3-text-teal"id ="Help">Help!</h3>
+      <p>
+       <font color="red">Work in progress!</font>
       </p><br>
           <p><a href="#top">Go back to the top</a></p>
     </div>
