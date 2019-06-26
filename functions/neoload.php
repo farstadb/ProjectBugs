@@ -51,10 +51,10 @@ table, th, td {
 
   <a class="w3-bar-item w3-button w3-hover-black" href="http://localhost:8080/projectbugs/functions/performance.php">Back to Performance Test</a>
 
-  <br><a class="w3-bar-item w3-button w3-hover-black" href="#Headline">NeoLoad</a>
-  <a class="w3-bar-item w3-button w3-hover-black" span style="margin-left:2em" href="#Skill">Technical skill level</a>
-  <a class="w3-bar-item w3-button w3-hover-black" span style="margin-left:2em" href="#Intro">What is NeoLoad?</a>
-  <a class="w3-bar-item w3-button w3-hover-black" span style="margin-left:2em" href="#Quickstart">How to do it yourself</a>
+  <br><a class="w3-bar-item w3-button w3-hover-black" href="#top">NeoLoad</a>
+  <a class="w3-bar-item w3-button w3-hover-black" span style="margin-left:2em" href="#Headline">Technical skill level</a>
+  <a class="w3-bar-item w3-button w3-hover-black" span style="margin-left:2em" href="#Skill">What is NeoLoad?</a>
+  <a class="w3-bar-item w3-button w3-hover-black" span style="margin-left:2em" href="#Prerequisite">How to do it yourself</a>
   <a class="w3-bar-item w3-button w3-hover-black" span style="margin-left:2em" href="#Assignment">Exercise</a>
   <a class="w3-bar-item w3-button w3-hover-black" span style="margin-left:2em" href="#Help">Help!</a>
 
@@ -76,7 +76,7 @@ table, th, td {
     </div>
 
   <div class="w3-row">
-    <div class="w3-twothird w3-container">
+    <div class="w3-twothird w3-container"><br></br>
       <h3 class="w3-text-teal"id ="Skill">Technical skill level</h3>
       <p>Beginner<br>
         Estimated time: 5 hours
@@ -145,8 +145,8 @@ table, th, td {
 
 
       </p>
-      <h4 class="w3-text-teal"id ="Prerequisite">Sogeti Neoload Testing Services</h4>
-      <p><li>Sogeti has a 1000 vuser license. This means we can test the application upto 1000 concurrent users.
+      <h4 class="w3-text-teal"id ="NeoladTest ">Sogeti Neoload Testing Services</h4>
+      <p id = "Prerequisite"><li>Sogeti has a 1000 vuser license. This means we can test the application upto 1000 concurrent users.
 <li>If you wish to avail our service, you can provide the basic details of you application and application url.
 <li>They conduct and free 100 user test for one hour and provide you the report.
 <li>If you are satisfies and wish to avail our service we provide a time and money estimation.
@@ -303,7 +303,9 @@ v<li>alidity. To help pinpoint the source of the error, you may access the reque
     <div class="w3-twothird w3-container">
       <h3 class="w3-text-teal"id ="Help">Help!</h3>
       <p>
-       <font color="red">Work in progress!</font>
+       Contact Hashim Alsindee if you require help.<br>
+        tlf: 40462464 <br>
+        Mail: hashim.alsindee@sogeti.no
       </p><br>
           <p><a href="#top">Go back to the top</a></p>
     </div>
