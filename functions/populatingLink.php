@@ -51,12 +51,12 @@ table, th, td {
   <a class="w3-bar-item w3-button w3-hover-black" href="http://localhost:8080/projectbugs/functions/testManagement.php">Back to Test Data Management</a>
 
   <br>
-  <a class="w3-bar-item w3-button w3-hover-black" href="#Headline">Test-Population</a>
-  <a class="w3-bar-item w3-button w3-hover-black" span style="margin-left:2em" href="#skill">Technical skill level</a>
-  <a class="w3-bar-item w3-button w3-hover-black" span style="margin-left:2em" href="#What">What is test data population?</a>
-  <a class="w3-bar-item w3-button w3-hover-black" span style="margin-left:2em" href="#prerequisite">Prerequisites</a>
-  <a class="w3-bar-item w3-button w3-hover-black" span style="margin-left:2em" href="#Populate">How to do it yourself</a>
-  <a class="w3-bar-item w3-button w3-hover-black" span style="margin-left:2em" href="#Assignment2">Exercise</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="#top">Test-Population</a>
+  <a class="w3-bar-item w3-button w3-hover-black" span style="margin-left:2em" href="#Headline">Technical skill level</a>
+  <a class="w3-bar-item w3-button w3-hover-black" span style="margin-left:2em" href="#skill">What is test data population?</a>
+  <a class="w3-bar-item w3-button w3-hover-black" span style="margin-left:2em" href="#What">Prerequisites</a>
+  <a class="w3-bar-item w3-button w3-hover-black" span style="margin-left:2em" href="#Prerequisites">How to do it yourself</a>
+  <a class="w3-bar-item w3-button w3-hover-black" span style="margin-left:2em" href="#Exercise">Exercise</a>
   <a class="w3-bar-item w3-button w3-hover-black" span style="margin-left:2em" href="#help">Help!</a>
   <br><a class="w3-bar-item w3-button w3-hover-black" href="http://localhost:8080/projectbugs/index.php"target="_blank">Go to test site</a>
 </nav>
@@ -93,7 +93,7 @@ table, th, td {
         <h3 class="w3-text-teal"id ="prerequisite">Prerequisites</h3>
               <p>
           Before starting creating the Test Generation tool, the following steps must have been completed:<br><br>
-          · Apache and MySQL server must be started<br /><br />
+          · Apache and MySQL server must be started<p id= "Prerequisites">
           · Chrome must be installed · Follow the steps in: How to start with Project Bugs<br /><br />
           · The <a href = "seleniumSetup.php"target="_blank">Selenium tutorial</a> must have been done.<br /><br />
           · The <a href = "generatingLink.php"target="_blank">test data generation tutorial</a> must have been done.<br /><br />
@@ -262,7 +262,7 @@ table, th, td {
         The application now opens Chrome, navigates to the Project Bugs site, and searches for every animal in the search bar. When it has searched for every animal, the Chrome window closes. <br><br>
 
         Step 7: Build the solution, and run the application.<br><br>
-        <img src="../images/Population3.png" alt="Population_Image_3"><br><br>
+        <img src="../images/Population3.png" alt="Population_Image_3" id ="Exercise"><br><br>
 
         Now you have an application that takes the information from an excel sheet, stores it in an array, and searches the Project Bugs site using said array. However, the application is still not complete, which takes us to the assignment...
       </p>

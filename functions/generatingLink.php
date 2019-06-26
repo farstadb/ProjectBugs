@@ -47,11 +47,11 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
   <a class="w3-bar-item w3-button w3-hover-black" href="http://localhost:8080/projectbugs/functions/testManagement.php">Back to Test Data Management</a>
 
   <br></br>
-  <a class="w3-bar-item w3-button w3-hover-black" href="#Headline">Test-Generation</a>
-  <a class="w3-bar-item w3-button w3-hover-black" span style="margin-left:2em" href="#skill">Technical skill level</a>
-  <a class="w3-bar-item w3-button w3-hover-black" span style="margin-left:2em" href="#Info">What is test data generation</a>
-  <a class="w3-bar-item w3-button w3-hover-black" span style="margin-left:2em" href="#Generate">How to do it yourself</a>
-  <a class="w3-bar-item w3-button w3-hover-black" span style="margin-left:2em" href="#Assignment1">Exercise</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="#top">Test-Generation</a>
+  <a class="w3-bar-item w3-button w3-hover-black" span style="margin-left:2em" href="#Headline">Technical skill level</a>
+  <a class="w3-bar-item w3-button w3-hover-black" span style="margin-left:2em" href="#skill">What is test data generation</a>
+  <a class="w3-bar-item w3-button w3-hover-black" span style="margin-left:2em" href="#Info">How to do it yourself</a>
+  <a class="w3-bar-item w3-button w3-hover-black" span style="margin-left:2em" href="#Exercise">Exercise</a>
     <a class="w3-bar-item w3-button w3-hover-black" span style="margin-left:2em" href="#help">Help!</a> <br>
   <a class="w3-bar-item w3-button w3-hover-black" href="http://localhost:8080/projectbugs/functions/populatingLink.php">Test-Population</a>
   <br><a class="w3-bar-item w3-button w3-hover-black" href="http://localhost:8080/projectbugs/index.php"target="_blank">Go to test site</a>
@@ -98,8 +98,8 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
       <br></br>For Project Bugs we are using following fields: <br></br>
       <img src ="../images/generation2.jpg">
       <br></br> Scroll down to #Rows and Format, we need 1000 rows and in Excel-format. 
-      Press Download data. 
-      <img src ="../images/generation3.jpg"><br></br>
+      Press Download data. <br></br>
+      <img src ="../images/generation3.jpg" id = "Exercise"><br></br>
       Save your file! Voilà - you are finished!
   	</p>
     </div>
