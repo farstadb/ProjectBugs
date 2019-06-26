@@ -50,8 +50,6 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
   <a class="w3-bar-item w3-button w3-hover-black" href="#Info">What is Automation</a>
   <br></br>
   <a class="w3-bar-item w3-button w3-hover-black" href="http://localhost:8080/projectbugs/functions/seleniumSetup.php">Selenium</a>
-  <a class="w3-bar-item w3-button w3-hover-black" href="http://localhost:8080/projectbugs/functions/uiPath.php">UiPath</a>
-  <a class="w3-bar-item w3-button w3-hover-black" href="http://localhost:8080/projectbugs/functions/testComplete.php">TestComplete</a>
   <br></br><a class="w3-bar-item w3-button w3-hover-black" href="http://localhost:8080/projectbugs/index.php"target="_blank">Go to test site</a>
 </nav>
 
@@ -83,8 +81,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
       <p>
         Test Automation means using an automation tool to run tests. When a user performs a test, they have to do do every step in the test process manually. With test automation, the tests can be run from start to end automatically, requiring no input from the user. This can be especially when testing the same area over and over.
 
-        <br><br>From the Training Arena you will you will learn to use several test automation tools, like <a href = "http://localhost:8080/projectbugs/functions/seleniumSetup.php">Selenium</a>, <a href = "http://localhost:8080/projectbugs/functions/uiPath.php">UiPath</a> and <a href = "http://localhost:8080/projectbugs/functions/testComplete.php">TestComplete</a>.
-      </p>
+        <br><br>From the Training Arena you will learn how to use <a href = "http://localhost:8080/projectbugs/functions/seleniumSetup.php">Selenium</a> as a test automation tool.</p>
     </div>
 
 

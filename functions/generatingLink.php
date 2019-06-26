@@ -53,7 +53,6 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
   <a class="w3-bar-item w3-button w3-hover-black" span style="margin-left:2em" href="#Info">How to do it yourself</a>
   <a class="w3-bar-item w3-button w3-hover-black" span style="margin-left:2em" href="#Exercise">Exercise</a>
     <a class="w3-bar-item w3-button w3-hover-black" span style="margin-left:2em" href="#help">Help!</a> <br>
-  <a class="w3-bar-item w3-button w3-hover-black" href="http://localhost:8080/projectbugs/functions/populatingLink.php">Test-Population</a>
   <br><a class="w3-bar-item w3-button w3-hover-black" href="http://localhost:8080/projectbugs/index.php"target="_blank">Go to test site</a>
 </nav>
 
