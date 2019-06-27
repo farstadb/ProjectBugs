@@ -72,24 +72,13 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
     <div class="w3-row w3-padding-64">
     <div class="w3-twothird w3-container">
       <h2 class="w3-text-teal"id ="Info">Introduction</h2>
-      <p>In this section, you will learn about the test data management which is a very important part in software testing. You will learn about: What is test data management, how to generate test data , how to  use/import test data.
+      <p>When testing, you will often require large sets of data to use in your tests. This is called test data, and can consist of everything from usernames to emails, and more. Test data might be produced by the testers themselves, or by automated programs. When handling large sets of test data, it is useful to have ways to manage it, through the use of tools. <br><br>
 
-      </p>
-    </div>
+        Test Data Management is the creation and use of test data that allows the tester to test systems and applications without relying on production data. In this section, you will learn how to generate test data, as well as how to use the test data to populate a website. See the respective pages on the side bar to learn more. 
 
-  <div class="w3-row">
-    <div class="w3-twothird w3-container">
-      <h2 class="w3-text-teal" id ="What">What is Test Data</h2>
-      <p>Test Data is data that is going to be used for the purpose of testing. When sets of usernames and passwords to test a login function for example, then those usernames and passwords are considered test data. <br></br>
-
-      When working with large amounts of test data it is useful to have a way to manage this data through the use of tools.
-
-      <br> Fill in that you can use both generating and populating.. blablabla
-      </p><br>
+            </p><br>
           <p><a href="#top">Go back to the top</a></p>
     </div>
- 
-
 
 <!-- END MAIN -->
 </div>
