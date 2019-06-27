@@ -47,8 +47,8 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
   </a>
   <h4 class="w3-bar-item"><b>Menu</b></h4>
 
-  <a class="w3-bar-item w3-button w3-hover-black" href="http://localhost:8080/projectbugs/functions/generatingLink.php">Test-Generation</a>
-  <a class="w3-bar-item w3-button w3-hover-black" href="http://localhost:8080/projectbugs/functions/populatingLink.php">Test-Population</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="http://localhost:8080/projectbugs/functions/generatingLink.php">Go to Test Data Generation</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="http://localhost:8080/projectbugs/functions/populatingLink.php">Go to Test Data Population</a>
   <br></br><a class="w3-bar-item w3-button w3-hover-black" href="http://localhost:8080/projectbugs/index.php"target="_blank">Go to test site</a>
 </nav>
 
@@ -66,14 +66,39 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
       </p>
     </div>
 
-    <div class="w3-row w3-padding-64">
+  <div class="w3-row">
     <div class="w3-twothird w3-container">
-      <h2 class="w3-text-teal"id ="Info">Introduction</h2>
-      <p>When testing, you will often require large sets of data to use in your tests. This is called test data, and can consist of everything from usernames to emails, and more. Test data might be produced by the testers themselves, or by automated programs. When handling large sets of test data, it is useful to have ways to manage it, through the use of tools. <br><br>
+      <h3 class="w3-text-teal"id ="Info">Introduction</h3>
+      <p>Test data management is the creation of non-production data sets that reliably mimic an organization’s actual data so that testers, systems- and applications developers can perform rigorous and valid systems tests.
+            </p>
+    </div>
 
-        Test Data Management is the creation and use of test data that allows the tester to test systems and applications without relying on production data. In this section, you will learn how to generate test data, as well as how to use the test data to populate a website. See the respective pages on the side bar to learn more. 
+  <div class="w3-row">
+    <div class="w3-twothird w3-container">
+      <h3 class="w3-text-teal" id ="Who">Who uses test data management?</h3>
+      <p>Test data management is used by organizations which dealing with many critical processing of sensitive data. It is especially important in industries such as banking and health care where a breach of sensitive customer data could be extremely damaging. However, most organizations have some data that is sensitive and needs to be masked for testing purposes.
+      </p>
+    </div>
 
-            </p><br>
+      <div class="w3-row">
+    <div class="w3-twothird w3-container">
+      <h3 class="w3-text-teal" id ="What">What are the benefits of test data management?</h3>
+      <p>Test data management helps organizations create better quality software that will perform reliably on deployment. It prevents bug fixes and rollbacks and overall creates a more cost-efficient software deployment process. It also lowers the organization’s compliance and security risks.
+      </p>
+    </div>
+
+          <div class="w3-row">
+    <div class="w3-twothird w3-container">
+      <h3 class="w3-text-teal" id ="Who">What do I need to know about test data management?</h3>
+      <p>The quality of test data matters. If applications are tested against generic data many problems can arise once the application is put into production. To avoid problems, applications must be tested rigorously against data that is as similar as possible to the actual data that will be used.
+      </p>
+    </div>
+
+              <div class="w3-row">
+    <div class="w3-twothird w3-container">
+      <h3 class="w3-text-teal" id ="Who">Why not copy production data for tests?</h3>
+      <p>Production data is often not practical for use in a test system due to security and regulatory concerns. Data that has personally identifiable information must be altered in order to protect people from having sensitive data exposed to the development and testing teams. Test data management uses data masking techniques to obfuscate personally identifiable information while still retaining the formatting and other data properties that are important for testing.
+      </p><br>
           <p><a href="#top">Go back to the top</a></p>
     </div>
 
