@@ -99,7 +99,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
       <h3 class="w3-text-teal" id ="Who">Why not copy production data for tests?</h3>
       <p>Due to data security and regulatory matter, production data is often not practical for use in a test system. Data that has personally identifiable information must be altered in order to protect people from having sensitive data exposed to the development and testing teams. Test data management uses data masking techniques to obfuscate personally identifiable information while still retaining the formatting and other data properties that are important for testing.<br>
       <br>
-      In this section, you will learn how to generate test data, as well as how to use the test data to populate a website. See the respective pages on the side bar to learn more.
+      In this section, you will learn how to generate test data, as well as how to use the test data to populate a website. See the contents on the left side of this page. There are several test data management tools in the market, and each tool has their own algorithm. Some organizations has built and use their own test data management tool.
       </p><br>
           <p><a href="#top">Go back to the top</a></p>
     </div>
