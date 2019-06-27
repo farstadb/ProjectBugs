@@ -69,7 +69,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
   <div class="w3-row">
     <div class="w3-twothird w3-container">
       <h3 class="w3-text-teal"id ="Info">Introduction</h3>
-      <p>Test data management is the creation of non-production data sets that reliably mimic an organization’s actual data so that testers, systems- and applications developers can perform rigorous and valid systems tests.
+      <p>Test data management is the creation of non-production data sets that reliably mimic an organization’s actual data so that testers, systems- and applications developers can perform rigorous and valid systems tests. In other words, test data management provides secure, automated provisioning of non-production datasets to meet development and testing needs.
             </p>
     </div>
 
@@ -83,21 +83,21 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
       <div class="w3-row">
     <div class="w3-twothird w3-container">
       <h3 class="w3-text-teal" id ="What">What are the benefits of test data management?</h3>
-      <p>Test data management helps organizations create better quality software that will perform reliably on deployment. It prevents bug fixes and rollbacks and overall creates a more cost-efficient software deployment process. It also lowers the organization’s compliance and security risks.
+      <p>Test data management helps organizations create better quality in the software that will perform reliably on deployment. It creates overall cost-efficient software deployment process, prevents bug fixes and rollbacks. It also lowers the organization’s security risks and compliance.
       </p>
     </div>
 
           <div class="w3-row">
     <div class="w3-twothird w3-container">
       <h3 class="w3-text-teal" id ="Who">What do I need to know about test data management?</h3>
-      <p>The quality of test data matters. If applications are tested against generic data many problems can arise once the application is put into production. To avoid problems, applications must be tested rigorously against data that is as similar as possible to the actual data that will be used.
+      <p>The quality of test data matters. If applications are tested against generic data, many issues can appear once the application is put into production. To avoid problems, applications must be tested rigorously against data that is production-liked / as similar as possible to the actual data that will be used in production.
       </p>
     </div>
 
               <div class="w3-row">
     <div class="w3-twothird w3-container">
       <h3 class="w3-text-teal" id ="Who">Why not copy production data for tests?</h3>
-      <p>Production data is often not practical for use in a test system due to security and regulatory concerns. Data that has personally identifiable information must be altered in order to protect people from having sensitive data exposed to the development and testing teams. Test data management uses data masking techniques to obfuscate personally identifiable information while still retaining the formatting and other data properties that are important for testing.
+      <p>Due to data security and regulatory matter, production data is often not practical for use in a test system. Data that has personally identifiable information must be altered in order to protect people from having sensitive data exposed to the development and testing teams. Test data management uses data masking techniques to obfuscate personally identifiable information while still retaining the formatting and other data properties that are important for testing.
       </p><br>
           <p><a href="#top">Go back to the top</a></p>
     </div>
