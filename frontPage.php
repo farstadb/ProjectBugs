@@ -201,9 +201,7 @@
 						<div class="dropdown-content">
 						<a href = "http://localhost:8080/projectbugs/functions/performance.php"> About Performance testing </a>
 						<a href = "http://localhost:8080/projectbugs/functions/neoload.php"> NeoLoad </a>
-						<a href = "http://localhost:8080/projectbugs/functions/jmeter.php"> JMeter </a>						
-						<a href = "http://localhost:8080/projectbugs/functions/notFinished.php"target="_blank"> .... </a>
-						<a href = "http://localhost:8080/projectbugs/functions/notFinished.php"target="_blank"> Link 1 </a>
+						<a href = "http://localhost:8080/projectbugs/functions/jmeter.php"> JMeter </a>					
 						</div>
 			</div>
 			<div class="dropdown">
