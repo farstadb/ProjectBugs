@@ -86,16 +86,18 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
       <li>Scalability</li>
       <li>Stability</li>
       <li>Reliability</li><br>
+      </ul>
       
 
       Performance testing metrics:<br>
       A number of performance metrics, also known as key performance indicators (KPIs) can help an organization evaluate current performance compared to baselines.<br><br>
-      Performance metrics commonly include:<br>
+      Performance metrics commonly include:<br><ul>
       <li>Throughput - how many units of information a system processes over a specified time.</li>
       <li>Memory - the working storage space available to a processor or workload.</li>
       <li>Response time, or latency - the amount of time that elapses between a user-entered request and the start of a system's response to that request.</li>
       <li>Bandwidth - the volume of data per second that can move between workloads, usually across a network.</li>
       <li>CPU interrupts per second - the number of hardware interrupts a process receives per second.</li>
+      </ul>
 
     </div>
 
@@ -106,10 +108,10 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
       Performance testing can help identify the nature or location of a software-related performance problem by highlighting where an application might fail or lag.      Performance testing can also verify that a system meets the specifications claimed by its manufacturer or vendor. The process can be used to compare two or more devices or programs.<br><br>
       Performance testing tools:<br>
       <ul>
-        <li><a href ="http://jmeter.apache.org"> JMeter </a> </li>
-        <li><a href ="https://www.neotys.com/"> NeoLoad </a> </li>
-        <li><a href ="https://www.microfocus.com/en-us/products/loadrunner-load-testing/overview"> Load Runner </a> </li>
-        <li><a href ="https://www.radview.com/"> Web Load </a> </li>
+        <li><a href ="http://jmeter.apache.org" target="_blank"> JMeter </a> </li>
+        <li><a href ="https://www.neotys.com/" target="_blank"> NeoLoad </a> </li>
+        <li><a href ="https://www.microfocus.com/en-us/products/loadrunner-load-testing/overview" target="_blank"> Load Runner </a> </li>
+        <li><a href ="https://www.radview.com/" target="_blank"> Web Load </a> </li>
       </ul>
       </p><br>
           <p><a href="#top">Go back to the top</a></p>
