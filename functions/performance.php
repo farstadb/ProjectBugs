@@ -72,33 +72,45 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
     <div class="w3-row w3-padding-64">
     <div class="w3-twothird w3-container">
       <h2 class="w3-text-teal"id ="Info">Introduction</h2>
-      <p>We take care of ourselves with our Performance Testing service the performance of your future system. Our experienced
-test professionals map the performance requirements and risks together with you. These serve as the basis for the
-correct performance test, show which load we have to simulate and how to set up the test environment.<br><br>
-After scripting the required use cases in the test tool we perform the test. Sogeti assesses the test results
-and explains the findings, potential performance bottlenecks and recommendations in the final report. Because we
-use a standard approach based on TMap NEXT®, you are sure of an efficient running of it trajectory.<br><br>
-<h3>First step:</h3> We prepare a performance test plan for a fixed price that provides insight into the exact demand, the
-infrastructure, framework conditions, lead time and costs of step two.
-<h3>Second step:</h3>The actual implementation of the testing and reporting on the results.
-If you choose to potentially reduce your configuration, we will perform the tests several times.
-We take the performance test tool with us during the test period. You only pay for use (pay-peruse). Compared to purchasing a commercial license you only pay 10 to 20%. By deploying This service keeps you the costs of running a performance test manageable.
-   
+      <p>Performance testing is a non-functional testing technique, which is performed to determine the speed, responsiveness and stability of a computer, network, software program or device under various workload. Performance testing measures the quality attributes of the system, such as scalability, reliability and resource usage.
+        <br></br>
+      Performance testing can involve quantitative tests done in a lab, or it can occur in the production environment in limited scenarios. Typical parameters include processing speed, data transfer rate, network bandwidth and throughput, workload efficiency and reliability. For example, an organization can measure the response time of a program when a user requests an action or the number of millions of instructions per second (MIPS) at which a mainframe functions.
+      <br></br>
+      There are two main performance testing methods which often performed, stress testing and load testing. Other performance testing method are Spike Testing and Soak Testing.
+          <br><ul>
+            <li>Stress testing - it is performed to find the upper limit capacity of the system and to determine how the system performs if the current load goes well above the expected maximum.</li>
+            <li>Load testing - It is the simplest form of testing conducted to understand the behaviour of the system under a specific load. Load testing will result in measuring important business critical transactions and load on the database, application server, etc., are also monitored.</li>
+          </br></ul>
+      Performance testing attributes:<ul>
+      <li>Speed</li>
+      <li>Scalability</li>
+      <li>Stability</li>
+      <li>Reliability</li><br>
+      
+
+      Performance testing metrics:<br>
+      A number of performance metrics, also known as key performance indicators (KPIs) can help an organization evaluate current performance compared to baselines.<br><br>
+      Performance metrics commonly include:<br>
+      <li>Throughput - how many units of information a system processes over a specified time.</li>
+      <li>Memory - the working storage space available to a processor or workload.</li>
+      <li>Response time, or latency - the amount of time that elapses between a user-entered request and the start of a system's response to that request.</li>
+      <li>Bandwidth - the volume of data per second that can move between workloads, usually across a network.</li>
+      <li>CPU interrupts per second - the number of hardware interrupts a process receives per second.</li>
+
     </div>
 
   <div class="w3-row">
     <div class="w3-twothird w3-container">
-      <h2 class="w3-text-teal" id ="What">What is Performance Test</h2>
-      Performance Testing is defined as a type of software testing to ensure software applications will perform well under their expected workload. 
-
-Features and Functionality supported by a software system is not the only concern.<br><br> A software application's performance like its 
-(<em>response time, reliability, resource usage and scalability do matter.</em>)
- The goal of Performance Testing is not to find bugs but to eliminate performance bottlenecks. <br><br>The focus of Performance Testing is checking a software program's: </p>
-<ul>
-  <li>Speed - Determines whether the application responds quickly</li>
-  <li>Scalability - Determines maximum user load the software application can handle.</li>
-  <li>Stability - Determines if the application is stable under varying loads</li>
-</ul>
+      <h2 class="w3-text-teal" id ="What">Why use performance testing?</h2>
+      An organization can use performance testing as a diagnostic aid to locate computing or communications bottlenecks within a system. Bottlenecks are a single point or component within a system's overall function that hold back overall performance. For example, even the fastest computer will function poorly on today's web if the bandwidth is less than 1 megabit per second (Mbps). Slow data transfer rates might be inherent in hardware, but can also result from software-related problems, such as too many applications running at the same time or a corrupted file in a web browser.<br><br>
+      Performance testing can help identify the nature or location of a software-related performance problem by highlighting where an application might fail or lag.      Performance testing can also verify that a system meets the specifications claimed by its manufacturer or vendor. The process can be used to compare two or more devices or programs.<br><br>
+      Performance testing tools:<br>
+      <ul>
+        <li><a href ="http://jmeter.apache.org"> JMeter </a> </li>
+        <li><a href ="https://www.neotys.com/"> NeoLoad </a> </li>
+        <li><a href ="https://www.microfocus.com/en-us/products/loadrunner-load-testing/overview"> Load Runner </a> </li>
+        <li><a href ="https://www.radview.com/"> Web Load </a> </li>
+      </ul>
       </p><br>
           <p><a href="#top">Go back to the top</a></p>
     </div>
