@@ -47,7 +47,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
   </a>
   <h4 class="w3-bar-item"><b>Menu</b></h4>
   <a class="w3-bar-item w3-button w3-hover-black" href="#top">Introduction</a>
-  <a class="w3-bar-item w3-button w3-hover-black" href="#Info">What is Performance Test</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="#Why">Why use performance testing?</a>
 
   <br></br>
   <a class="w3-bar-item w3-button w3-hover-black" href="http://localhost:8080/projectbugs/functions/neoload.php">NeoLoad</a>
@@ -103,7 +103,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
 
   <div class="w3-row">
     <div class="w3-twothird w3-container">
-      <h2 class="w3-text-teal" id ="What">Why use performance testing?</h2>
+      <h2 class="w3-text-teal" id ="Why">Why use performance testing?</h2>
       An organization can use performance testing as a diagnostic aid to locate computing or communications bottlenecks within a system. Bottlenecks are a single point or component within a system's overall function that hold back overall performance. For example, even the fastest computer will function poorly on today's web if the bandwidth is less than 1 megabit per second (Mbps). Slow data transfer rates might be inherent in hardware, but can also result from software-related problems, such as too many applications running at the same time or a corrupted file in a web browser.<br><br>
       Performance testing can help identify the nature or location of a software-related performance problem by highlighting where an application might fail or lag.      Performance testing can also verify that a system meets the specifications claimed by its manufacturer or vendor. The process can be used to compare two or more devices or programs.<br><br>
       Performance testing tools:<br>
