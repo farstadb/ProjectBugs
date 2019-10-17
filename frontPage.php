@@ -158,7 +158,8 @@
 					</button>
 			<div class="dropdown-content">
 				<a href = "Test arena/TestArena.html"> Welcome </a>
-				<a href = "Test arena/TestArena.html"> Test Arena </a>			<a href = "Test arena/TestArena.html"> News </a>
+				<a href = "Test arena/TestArena.html"> Test Arena </a>
+				<a href = "Test arena/TestArena.html"> News </a>
 			</div>
 		</div>
 				<a href = "http://localhost:8080/projectbugs/functions/testManagement.php" class="dropbtn" class="dropdown">Test Data Management</a>
@@ -189,8 +190,7 @@
 						<div class="dropdown-content">
 						<a href = "http://localhost:8080/projectbugs/functions/performance.php"> About Performance testing </a>
 						<a href = "http://localhost:8080/projectbugs/functions/neoload.php"> NeoLoad </a>
-						<a href = "http://localhost:8080/projectbugs/functions/jmeter.php"> JMeter </a>						
-						<a href = "http://localhost:8080/projectbugs/functions/uiPath.php"> .... </a>
+						<a href = "http://localhost:8080/projectbugs/functions/jmeter.php"> JMeter </a>				
 						<a href = "Test arena/TestArena.html"> Link1 </a>
 						</div>
 			</div>
@@ -200,7 +200,7 @@
 					</button>
 					<div class="dropdown-content">
 						<a href = "Test arena/TestArena.html"> About us </a>
-						<a href = "Test arena/TestArena.html"> Bla bla bla </a>	<a href = "Test arena/TestArena.html"> Nyhet </a>
+						
 					</div>
 			</div>
 		</div>

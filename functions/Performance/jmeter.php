@@ -51,13 +51,13 @@ table, th, td {
   <a class="w3-bar-item w3-button w3-hover-black" href="http://localhost:8080/projectbugs/functions/performance.php">Back to Performance</a>
 
   <br>
-  <a class="w3-bar-item w3-button w3-hover-black" href="http://localhost:8080/projectbugs/functions/jmeter.php">Introduction</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="http://localhost:8080/projectbugs/functions/performance/jmeter.php">Introduction</a>
 
-  <a class="w3-bar-item w3-button w3-hover-black" href="http://localhost:8080/projectbugs/functions/guide-to-install-jmeter.php"target="_blank">Download & Install Apache JMeter</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="http://localhost:8080/projectbugs/functions/Performance/guide-to-install-jmeter.php"target="_blank">Download & Install Apache JMeter</a>
 
-   <a class="w3-bar-item w3-button w3-hover-black" href="http://localhost:8080/projectbugs/functions/jmeter-element-reference.php"target="_blank">JMeter Elements</a>
+   <a class="w3-bar-item w3-button w3-hover-black" href="http://localhost:8080/projectbugs/functions/Performance/jmeter-element-reference.php"target="_blank">JMeter Elements</a>
  
-  <a class="w3-bar-item w3-button w3-hover-black" href="http://localhost:8080/projectbugs/functions/hands-on-with-jmeter-gui.php">JMeter GUI:</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="http://localhost:8080/projectbugs/functions/Performance/hands-on-with-jmeter-gui.php">JMeter GUI:</a>
 <a class="w3-bar-item w3-button w3-hover-black" href="http://localhost:8080/projectbugs/functions/loadt.php"target="_blank">How to Use JMeter for Performance & Load Testing</a>
 <a class="w3-bar-item w3-button w3-hover-black" href="#Timers">Jmeter Timers:</a>Download JMeter
 <a class="w3-bar-item w3-button w3-hover-black" href="#controllers">Controllers in JMeter:</a>

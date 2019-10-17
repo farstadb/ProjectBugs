@@ -71,7 +71,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
 
     <div class="w3-row w3-padding-64">
     <div class="w3-twothird w3-container">
-      <h2 class="w3-text-teal"id ="Info">Introduction</h2>
+      <h2 class="w3-text-teal"id ="top">Introduction</h2>
       <p>We take care of ourselves with our Performance Testing service the performance of your future system. Our experienced
 test professionals map the performance requirements and risks together with you. These serve as the basis for the
 correct performance test, show which load we have to simulate and how to set up the test environment.<br><br>
@@ -88,7 +88,7 @@ We take the performance test tool with us during the test period. You only pay f
 
   <div class="w3-row">
     <div class="w3-twothird w3-container">
-      <h2 class="w3-text-teal" id ="What">What is Performance Test</h2>
+      <h2 class="w3-text-teal" id ="info">What is Performance Test</h2>
       Performance Testing is defined as a type of software testing to ensure software applications will perform well under their expected workload. 
 
 Features and Functionality supported by a software system is not the only concern.<br><br> A software application's performance like its 
