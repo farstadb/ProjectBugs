@@ -50,13 +50,14 @@ table, th, td {
   <h4 class="w3-bar-item"><b>Menu</b></h4>
   <a class="w3-bar-item w3-button w3-hover-black" href="http://localhost:8080/projectbugs/functions/testManagement.php">Back to Test Data Management</a>
 
-  <br></br>
-  <a class="w3-bar-item w3-button w3-hover-black" href="http://localhost:8080/projectbugs/functions/generatingLink.php">Test-Generation</a><br>
-  <a class="w3-bar-item w3-button w3-hover-black" href="http://localhost:8080/projectbugs/functions/populatingLink.php">Test-Population</a>
-  <a class="w3-bar-item w3-button w3-hover-black" span style="margin-left:2em" href="#top">Introduction</a>
-  <a class="w3-bar-item w3-button w3-hover-black" span style="margin-left:2em" href="#Info">What is population</a>
-  <a class="w3-bar-item w3-button w3-hover-black" span style="margin-left:2em" href="#What">How to do it</a>
-  <a class="w3-bar-item w3-button w3-hover-black" span style="margin-left:2em" href="#Assignment2">Assignment 2</a>
+  <br>
+  <a class="w3-bar-item w3-button w3-hover-black" href="#top">Test-Population</a>
+  <a class="w3-bar-item w3-button w3-hover-black" span style="margin-left:2em" href="#Headline">Technical skill level</a>
+  <a class="w3-bar-item w3-button w3-hover-black" span style="margin-left:2em" href="#skill">What is test data population?</a>
+  <a class="w3-bar-item w3-button w3-hover-black" span style="margin-left:2em" href="#What">Prerequisites</a>
+  <a class="w3-bar-item w3-button w3-hover-black" span style="margin-left:2em" href="#Prerequisites">How to do it yourself</a>
+  <a class="w3-bar-item w3-button w3-hover-black" span style="margin-left:2em" href="#Exercise">Exercise</a>
+  <a class="w3-bar-item w3-button w3-hover-black" span style="margin-left:2em" href="#help">Help!</a>
   <br><a class="w3-bar-item w3-button w3-hover-black" href="http://localhost:8080/projectbugs/index.php"target="_blank">Go to test site</a>
 </nav>
 
@@ -68,38 +69,43 @@ table, th, td {
   <div class="w3-row w3-padding-64">
     <div class="w3-twothird w3-container">
       <br></br>
-      <h1 class="w3-text-teal"id ="Headline">Population</h1>
-      <p>
+      <h1 class="w3-text-teal"id ="Headline">Test Data Population</h1>
+      <p>Welcome to Test Data Population! Here you will learn how to populate data, and how to set up a tool that can be used for this purpose, with an exercise to mass populate a database with said tool. 
       </p>
-    </div>
-
-    <div class="w3-row w3-padding-64">
-    <div class="w3-twothird w3-container">
-      <h2 class="w3-text-teal"id ="Info">Introduction</h2>
-      <p>Welcome to Test Data Population. Here you will learn how to populate data, and how to set up a tool that can be used for this purpose, with an assignment to mass populate a database with said tool. 
     </div>
 
   <div class="w3-row">
     <div class="w3-twothird w3-container">
-      <h2 class="w3-text-teal" id ="What">What is population</h2>
+      <h3 class="w3-text-teal" id ="skill">Technical skill level</h3>
+      <p>Advanced<br>
+      Estimated time: 4 hours</p>
+    </div>
+
+  <div class="w3-row">
+    <div class="w3-twothird w3-container">
+      <h3 class="w3-text-teal" id ="What">What is Test Data Population?</h3>
       <p>When applying Test Data Population, you find a tool that allows you to populate a high number of users, in a short period of time. This will lead to higher quality of testing, and is easier to use, than to type in a high number of users manually.</p>
     </div>
 
-  <div class="w3-row w3-padding-64">
-    <div class="w3-twothird w3-container">
-      <h2 class="w3-text-teal"id ="Populate">How to do it</h2>
-      <p>In this tutorial, you will learn how to develop your own Test Generation Tool, for use on the Project Bugs site.</p>
 
-        <h3 class="w3-text-teal"id ="Populate">Prerequisites</h3>
-        <p>
+  <div class="w3-row">
+    <div class="w3-twothird w3-container">
+        <h3 class="w3-text-teal"id ="prerequisite">Prerequisites</h3>
+              <p>
           Before starting creating the Test Generation tool, the following steps must have been completed:<br><br>
-          · Apache and MySQL server must be started<br /><br />
+          · Apache and MySQL server must be started<p id= "Prerequisites">
           · Chrome must be installed · Follow the steps in: How to start with Project Bugs<br /><br />
           · The <a href = "seleniumSetup.php"target="_blank">Selenium tutorial</a> must have been done.<br /><br />
           · The <a href = "generatingLink.php"target="_blank">test data generation tutorial</a> must have been done.<br /><br />
         </p>
+    </div>
+
+  <div class="w3-row w3-padding-64">
+    <div class="w3-twothird w3-container">
+      <h3 class="w3-text-teal"id ="Populate">How to do it yourself</h3>
+      <p>In this tutorial, you will learn how to develop your own Test Generation Tool, for use on the Project Bugs site.</p>
         
-        <h3 class="w3-text-teal"id ="Populate">Creating the tool</h3>
+        <h4 class="w3-text-teal"id ="Populate">Creating the tool</h4>
          <p>
         <br>To create the tool, follow these steps:<br /><br />
 
@@ -256,13 +262,14 @@ table, th, td {
         The application now opens Chrome, navigates to the Project Bugs site, and searches for every animal in the search bar. When it has searched for every animal, the Chrome window closes. <br><br>
 
         Step 7: Build the solution, and run the application.<br><br>
-        <img src="../images/Population3.png" alt="Population_Image_3"><br><br>
+        <img src="../images/Population3.png" alt="Population_Image_3" id ="Exercise"><br><br>
 
         Now you have an application that takes the information from an excel sheet, stores it in an array, and searches the Project Bugs site using said array. However, the application is still not complete, which takes us to the assignment...
       </p>
-    <div class="w3-row w3-padding-64">
+      </div>
+  <div class="w3-row">
     <div class="w3-twothird w3-container">
-      <h2 class="w3-text-teal"id ="Assignment2">Assignment 2: Populate the Users database</h2>
+      <h3 class="w3-text-teal"id ="Assignment2">Exercise</h3>
       <p>
         Now that you have a working application that can extract information from an excel sheet and use the information on the Project Bugs site, it is time to use the application to mass populate the Users database.<br><br>
 
@@ -271,6 +278,16 @@ table, th, td {
         Rework the application, so that instead of extracting information about animal names, it extracts the information from the test data generated in Assignment 1, and uses it against the user registration page <a href = "http://localhost:8080/projectbugs/functions/nyBrukerForm.php"target="_blank">here</a>, to mass populate it.<br><br>
 
         All of the functions are already in place, but need to be reworked for their new purpose. Once this is completed, the application will enter the test data into the register page, with the site then storing the information in the users database. Thus you will have a fully functioning data population tool that can both extract information from excel files and use it to mass populate the Project Bugs database!
+      </p>
+    </div>
+
+  <div class="w3-row">
+    <div class="w3-twothird w3-container">
+      <h3 class="w3-text-teal"id ="help">Help!</h3>
+      <p>
+        Contact John Robert Ursin Bakk if you require help.<br>
+        tlf: 98626683<br>
+        Mail: john-robert.bakk@sogeti.no
       </p>
       <br>
           <p><a href="#top">Go back to the top</a></p>

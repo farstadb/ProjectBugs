@@ -161,8 +161,19 @@
 				<a href = "Test arena/TestArena.html"> Test Arena </a>
 				<a href = "Test arena/TestArena.html"> News </a>
 			</div>
+
 		</div>
-				<a href = "http://localhost:8080/projectbugs/functions/testManagement.php" class="dropbtn" class="dropdown">Test Data Management</a>
+				<div class="dropdown">
+			<button class = "dropbtn"><a href = "http://localhost:8080/projectbugs/functions/testManagement.php">Test Data Management</a>
+			<i class="fa fa-caret-down"></i>
+		</button>
+						<div class="dropdown-content">
+						<a href = "http://localhost:8080/projectbugs/functions/testManagement.php" class="dropbtn"> About Test data Management </a>
+						<a href = "http://localhost:8080/projectbugs/functions/generatingLink.php"> Test Data Generation </a>
+						<a href = "http://localhost:8080/projectbugs/functions/populatingLink.php"> Test Data Population </a>
+					</div>	
+				</div>
+
 				<div class="dropdown">
 			<button class = "dropbtn"><a href = "http://localhost:8080/projectbugs/functions/automation.php">Automation</a>
 			<i class="fa fa-caret-down"></i>
@@ -170,21 +181,23 @@
 						<div class="dropdown-content">
 						<a href = "http://localhost:8080/projectbugs/functions/automation.php" class="dropbtn"> About Automation </a>
 						<a href = "http://localhost:8080/projectbugs/functions/seleniumSetup.php"> Selenium </a>
-						<a href = "http://localhost:8080/projectbugs/functions/uiPath.php"> UiPath </a>
-						<a href = "http://localhost:8080/projectbugs/functions/testComplete.php"> TestComplete </a>
+						<a href = "http://localhost:8080/projectbugs/functions/notFinished.php"target="_blank"> UiPath </a>
+						<!-- UiPath popup, new tab (using target="_blank") -->
+						<a href = "http://localhost:8080/projectbugs/functions/notFinished.php"target="_blank"> TestComplete </a>
+						<!-- TestComplete popup, new tab (using target="_blank") -->
 					</div>
 			</div>
 			<div class="dropdown">
-					<button class = "dropbtn">Cyber Security
+					<button class = "dropbtn"><a href = "http://localhost:8080/projectbugs/functions/notFinished.php"target="_blank">Cyber Security</a>
 						<i class="fa fa-caret-down"></i>
 					</button>
 						<div class="dropdown-content">
-						<a href = "Test arena/TestArena.html"> Method </a>
-						<a href = "Test arena/TestArena.html"> Bla bla bla </a>	<a href = "Test arena/TestArena.html"> Link1 </a>
+						<a href = "http://localhost:8080/projectbugs/functions/notFinished.php"target="_blank"> Method </a>
+						<a href = "http://localhost:8080/projectbugs/functions/notFinished.php"target="_blank"> Cyber Security </a>
 						</div>
 			</div>
 			<div class="dropdown">
-					<button class = "dropbtn">Performance
+					<button class = "dropbtn"><a href = "http://localhost:8080/projectbugs/functions/performance.php">Performance</a>
 						<i class="fa fa-caret-down"></i>
 					</button>
 						<div class="dropdown-content">
@@ -195,18 +208,23 @@
 						</div>
 			</div>
 			<div class="dropdown">
-					<button class = "dropbtn">Certification
+					<button class = "dropbtn"><a href = "http://localhost:8080/projectbugs/functions/notFinished.php"target="_blank">Certification</a>
 						<i class="fa fa-caret-down"></i>
 					</button>
 					<div class="dropdown-content">
+
 						<a href = "Test arena/TestArena.html"> About us </a>
 						
 					</div>
 			</div>
 		</div>
 	</div>
-	<h1> Welcome to Training Arena!</h1>
-	<p> Find bugs, learn test automation and more </p> <br></br>
-	<a href = "http://localhost:8080/projectbugs/index.php" target="_blank" style="color:black"> <h3>Go to the test site!</h3> </a>
+
+	<h1> <ul> Welcome to Training Arena!</h1>
+	<ul> Find bugs, learn test automation, testing tools and more.
+	<p> Contact your manager to get information about which documents to read </p>
+	<p>in order to start the learning process.  </li></p>
+<!--Should we remove this??
+	<a href = "http://localhost:8080/projectbugs/index.php" target="_blank" style="color:black"> <h3>Go to the test site!</h3> </a>-->
 </body>
 </html>

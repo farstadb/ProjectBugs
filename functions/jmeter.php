@@ -48,6 +48,7 @@ table, th, td {
     <i class="fa fa-remove"></i>
   </a>
   <h4 class="w3-bar-item"><b>Menu</b></h4>
+
   <a class="w3-bar-item w3-button w3-hover-black" href="http://localhost:8080/projectbugs/functions/performance.php">Back to Performance</a>
 
   <br>
@@ -60,6 +61,16 @@ table, th, td {
   <a class="w3-bar-item w3-button w3-hover-black" href="http://localhost:8080/projectbugs/functions/hands-on-with-jmeter-gui.php">JMeter GUI:</a>
 <a class="w3-bar-item w3-button w3-hover-black" href="http://localhost:8080/projectbugs/functions/loadt.php"target="_blank">How to Use JMeter for Performance & Load Testing</a>
 <a class="w3-bar-item w3-button w3-hover-black" href="#Timers">Jmeter Timers:</a>Download JMeter
+
+  <a class="w3-bar-item w3-button w3-hover-black" href="http://localhost:8080/projectbugs/functions/performance.php">Back to Performance Test</a>
+
+  <br><a class="w3-bar-item w3-button w3-hover-black" href="#Intro">What is JMeter? Introduction & Uses</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="#Download">How to Download & Install Apache JMeter in easy steps</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="#Elements">JMeter Elements:</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="#GUI">JMeter GUI:</a>
+<a class="w3-bar-item w3-button w3-hover-black" href="#Performance">How to Use JMeter for Performance & Load Testing</a>
+<a class="w3-bar-item w3-button w3-hover-black" href="#Timers">Jmeter Timers:</a>
+
 <a class="w3-bar-item w3-button w3-hover-black" href="#controllers">Controllers in JMeter:</a>
 <a class="w3-bar-item w3-button w3-hover-black" href="#Processor">Processor in JMeter:</a>
   <br></br><a class="w3-bar-item w3-button w3-hover-black" href="http://localhost:8080/projectbugs/index.php"target="_blank">Go to test site</a>
@@ -74,7 +85,7 @@ table, th, td {
     <div class="w3-twothird w3-container">
       <br></br>
       <h1 class="w3-text-teal"id ="Headline">JMeter</h1>
-      <p>
+      <p><font color="red">This page is work in progress!</font>
       </p>
     </div>
 
